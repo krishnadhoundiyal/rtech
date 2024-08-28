@@ -10,7 +10,7 @@ include('temp/header.php');
             <div class="col-md-12">
                 <div class="page-heading text-white">
                     <div class="page-title">
-                        <h2>Insurance GenAI Services</h2>
+                        <h1>Insurance GenAI Services</h1>
                     </div>
                 </div>
 
@@ -33,20 +33,21 @@ include('temp/header.php');
 
             <!-- Form on the right -->
             <div class="col-12 col-lg-6 d-flex">
-                <div class="card p-3 w-100 shadow-lg border-0 rounded-4 d-flex flex-column justify-content-center" style="height: 100%;">
-                    <div class="card-body d-flex flex-column justify-content-center">
-                        <h2 class="mb-3 text-center text-primary">Get in Touch</h2>
-                        <form class="d-flex flex-column justify-content-between" style="height: 100%;">
-                            <div class="mb-2 flex-grow-1">
-                                <input type="text" class="form-control form-control-sm" id="name" placeholder="Name" required style="height: 35px; padding: 0.375rem 0.75rem;">
+                <div class="card p-3 w-100 shadow-lg border-0 rounded-4 d-flex flex-column justify-content-start" style="height: 100%;">
+                    <!-- Title at the top of the form -->
+                    <h2 class="mb-3 text-center text-primary">Get in Touch</h2>
+                    <div class="card-body d-flex flex-column justify-content-start" style="padding: 1rem;">
+                        <form class="d-flex flex-column" style="gap: 0.5rem;">
+                            <div class="mb-2">
+                                <input type="text" class="form-control" id="name" placeholder="Name" required style="height: 38px;">
                             </div>
-                            <div class="mb-2 flex-grow-1">
-                                <input type="tel" class="form-control form-control-sm" id="phone" placeholder="Phone Number" required style="height: 35px; padding: 0.375rem 0.75rem;">
+                            <div class="mb-2">
+                                <input type="tel" class="form-control" id="phone" placeholder="Phone Number" required style="height: 38px;">
                             </div>
-                            <div class="mb-2 flex-grow-2">
-                                <textarea class="form-control form-control-sm" id="requirements" placeholder="More Requirements" rows="3" style="resize: none; height: 70px; padding: 0.375rem 0.75rem;" required></textarea>
+                            <div class="mb-2">
+                                <textarea class="form-control" id="requirements" placeholder="More Requirements" rows="3" style="resize: none; height: 75px;" required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary w-100 py-1 mt-2">Submit</button>
+                            <button type="submit" class="btn btn-primary w-100 py-2">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -59,6 +60,7 @@ include('temp/header.php');
         <path fill="#ffffff" fill-opacity="1" d="M0,224L30,208C60,192,120,160,180,170.7C240,181,300,235,360,224C420,213,480,139,540,112C600,85,660,107,720,117.3C780,128,840,128,900,138.7C960,149,1020,171,1080,181.3C1140,192,1200,192,1260,197.3C1320,203,1380,213,1410,218.7L1440,224L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
     </svg>
 </section>
+
 
 
 
