@@ -5,9 +5,6 @@ Author URI: https://themeforest.net/user/rrdevs
 Description: Information & Technology HTML Template
 Version: 1.0
 */
-.highlight {
-  color: yellow !important /* Highlight color */
-}
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -12590,4 +12587,87 @@ header.header-5 .main-header-wraper .header-search.show .search-box .form-group:
 }
 .contact_widget_2 .contact-us .single-contact-info .contact-info p {
   margin-top: -5px;
+}
+.gen-ai {
+  font-size: 18px; /* Adjust font size */
+  color: white !important;
+  line-height: 1.6; /* Increase line height for readability */
+  color: black; /* Set text color to a dark shade for contrast */
+  text-align: justify; /* Justify text for a clean look */
+  font-family: 'Arial', sans-serif; /* Set a readable font */
+
+  opacity: 0.7;
+}
+.service-details-post-wrapper {
+  width: 100%;
+  padding: 20px;
+}
+
+.content-section-grid {
+  display: grid;
+  gap: 40px; /* Space between sections */
+}
+
+.content-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  align-items: center; /* Center content vertically */
+  gap: 20px; /* Space between text and image */
+}
+
+.content-item.reverse {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "image text"; /* Image first, then text */
+}
+
+.page-banner-wrap {
+  position: relative;
+  overflow: hidden; /* Prevents overflow beyond the section */
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 60% 0, 40% 100%, 0 100%);
+  z-index: 1; /* Places background under the content */
+}
+
+.container {
+  position: relative;
+  z-index: 2; /* Ensures content is above the background image */
+  padding-top: 20px; /* Ensures some padding for better readability */
+  padding-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  .background-image {
+      clip-path: polygon(0 0, 80% 0, 60% 100%, 0 100%); /* Adjusted clip-path for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .background-image {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Remove wave effect on very small screens */
+  }
+
+  .page-banner-wrap {
+      padding: 20px; /* Adjusts padding for better spacing on small screens */
+  }
+
+  .card {
+      margin-top: 20px; /* Adds some margin on smaller screens to separate elements */
+  }
+}
+
+/* Custom CSS for the curved effect */
+
+
+.text-white {
+  z-index: 2;
+  position: relative;
 }

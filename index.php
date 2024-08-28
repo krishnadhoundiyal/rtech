@@ -49,7 +49,7 @@ include('temp/header.php');
                         <div class="hero-contents">
                             <!-- <h1>Insurance GenAI Solutions</h1> -->
                             <p>AI revolution for your insurance business made simple & reliable for future.</p>
-                            <a href="about.php" class="theme-btn minimal-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+                            <a href="gen-ai.php" class="theme-btn minimal-btn">Learn More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
