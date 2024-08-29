@@ -60,8 +60,83 @@ include('temp/header.php');
         <path fill="#ffffff" fill-opacity="1" d="M0,224L30,208C60,192,120,160,180,170.7C240,181,300,235,360,224C420,213,480,139,540,112C600,85,660,107,720,117.3C780,128,840,128,900,138.7C960,149,1020,171,1080,181.3C1140,192,1200,192,1260,197.3C1320,203,1380,213,1410,218.7L1440,224L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
     </svg>
 </section>
+<section class="service-details-post-wrapper section-padding">
+<div class="container">
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-6">
+            <a href="index.php">
+                        <img src="assets/img/insuretecBlacksmall.png" alt="">
+                    </a>
+                    <p class="mt-4">In today's rapidly evolving digital landscape, businesses must adapt to new technologies and methodologies to remain competitive. Generative AI offers innovative solutions, transforming industries like insurance with enhanced data analysis, customer engagement, and personalized offerings. Leveraging advanced machine learning models, companies can predict market trends, optimize operations, and provide smarter, faster solutions to clients. Embracing these tools not only drives efficiency but also fosters a culture of continuous improvement, ensuring long-term success and growth in an increasingly digital world.</p>
+            </div>
 
+            <!-- Right Column with 2x2 Grid -->
+            <div class="col-md-6">
+            <div class="container mt-5">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4">
+                <div class="card">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <!-- Icon -->
+                        <div class="icon mb-2">
+                            <i class="flaticon-speech-bubble fa-2x"></i>
+                        </div>
+                        <!-- Card Title -->
+                        <h5 class="card-title">IT Consultancy</h5>
+                        </div>
+                </div>
+            </div>
 
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4">
+                <div class="card">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <!-- Icon -->
+                        <div class="icon mb-2">
+                            <i class="flaticon-speech-bubble fa-2x"></i>
+                        </div>
+                        <!-- Card Title -->
+                        <h5 class="card-title">Data Analysis</h5>
+                        </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4">
+                <div class="card">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <!-- Icon -->
+                        <div class="icon mb-2">
+                            <i class="flaticon-speech-bubble fa-2x"></i>
+                        </div>
+                        <!-- Card Title -->
+                        <h5 class="card-title">Digital Transformation</h5>
+                        </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4">
+                <div class="card">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <!-- Icon -->
+                        <div class="icon mb-2">
+                            <i class="flaticon-speech-bubble fa-2x"></i>
+                        </div>
+                        <!-- Card Title -->
+                        <h5 class="card-title">Cloud Computing</h5>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
@@ -92,25 +167,30 @@ include('temp/header.php');
                     <div class="content-item">
                         <div class="text">
                             
-                            <h6> Generative AI strategy & consultancy in insurance
-</h6>
-<a href="contact.php" class="theme-btn mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
+                            <h6> Generative AI strategy & consultancy in insurance </h6>
+                            <p class="attractive-paragraph">Hello World will check for the 
+                                word count to be less than the number specified in the templated which is 20 words
+                            </p>
+<a href="contact.php" class="theme-btn-sm mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
                             </div>
                         <div class="image">
-                            <img src="assets/img/page-banner.jpg" alt="Image 1">
+                            <img src="assets/img/31.jpg" alt="Image 1">
                         </div>
                     </div>
 
                     <!-- Section 2: Image Left, Text Right -->
                     <div class="content-item reverse">
                         <div class="image">
-                            <img src="assets/img/page-banner.jpg" alt="Image 2">
+                            <img src="assets/img/blog3.jpg" alt="Image 2">
                         </div>
                         <div class="text">
                             
                             <h6> Conversational AI & Chatbot trained on your insurance business
 </h6>
-<a href="contact.php" class="theme-btn mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
+<p class="attractive-paragraph">Hello World will check for the 
+                                word count to be less than the number specified in the templated which is 20 words
+                            </p>
+<a href="contact.php" class="theme-btn-sm mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
                             </div>
                     </div>
 
@@ -119,58 +199,71 @@ include('temp/header.php');
                     <div class="content-item">
                         <div class="text">
                             
-                            <h6> Generative AI adoption & evaluation services
+                            <h6> Generative AI adoption and evaluation services
 
 </h6>
-<a href="contact.php" class="theme-btn mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
+<p class="attractive-paragraph">Hello World will check for the 
+                                word count to be less than the number specified in the templated which is 20 words
+                            </p>
+<a href="contact.php" class="theme-btn-sm mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
                             </div>
                         <div class="image">
-                            <img src="assets/img/page-banner.jpg" alt="Image 1">
+                            <img src="assets/img/31.jpg" alt="Image 1">
                         </div>
                     </div>
 
                     <!-- Section 2: Image Left, Text Right -->
                     <div class="content-item reverse">
                         <div class="image">
-                            <img src="assets/img/page-banner.jpg" alt="Image 2">
+                            <img src="assets/img/blog3.jpg" alt="Image 2">
                         </div>
                         <div class="text">
                             
-                            <h6> Generative AI POC and MVP development
+                            <h6> Generative AI POC and<br> MVP development
 
 </h6>
-<a href="contact.php" class="theme-btn mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
+<p class="attractive-paragraph">Hello World will check for the 
+                                word count to be less than the number specified in the templated which is 20 words
+                            </p>
+<a href="contact.php" class="theme-btn-sm mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
                             </div>
                     </div>
 
                     <!-- Repeat Sections as needed -->
                                       <!-- Section 1: Text Left, Image Right -->
-                    <div class="content-item">
+                                      <div class="content-item">
                         <div class="text">
                             
-                            <h6> Generative AI cybersecurity in insurance
+                            <h6> Generative AI cybersecurity<br> in insurance
 
 </h6>
-<a href="contact.php" class="theme-btn mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
+<p class="attractive-paragraph">Hello World will check for the 
+                                word count to be less than the number specified in the templated which is 20 words
+                            </p>
+<a href="contact.php" class="theme-btn-sm mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
                             </div>
                         <div class="image">
-                            <img src="assets/img/page-banner.jpg" alt="Image 1">
+                            <img src="assets/img/31.jpg" alt="Image 1">
                         </div>
                     </div>
 
                     <!-- Section 2: Image Left, Text Right -->
                     <div class="content-item reverse">
                         <div class="image">
-                            <img src="assets/img/page-banner.jpg" alt="Image 2">
+                            <img src="assets/img/blog3.jpg" alt="Image 2">
                         </div>
                         <div class="text">
                             
                             <h6> Gen AI document data extraction and management
 
 </h6>
-<a href="contact.php" class="theme-btn mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
+<p class="attractive-paragraph">Hello World will check for the 
+                                word count to be less than the number specified in the templated which is 20 words
+                            </p>
+<a href="contact.php" class="theme-btn-sm mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
                             </div>
                     </div>
+
 
                     <!-- Repeat Sections as needed -->
                 </div>

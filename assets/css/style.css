@@ -12671,3 +12671,34 @@ header.header-5 .main-header-wraper .header-search.show .search-box .form-group:
   z-index: 2;
   position: relative;
 }
+.attractive-paragraph {
+  font-family: 'Arial', sans-serif; /* Modern, readable font */
+  font-size: 16px; /* Slightly larger font size for better readability */
+  color: #333; /* Dark gray text color */
+  background-color: #f1f2f2; /* Light blue background for contrast */
+  padding: 15px 20px; /* Padding to add space inside the paragraph */
+  margin: 5px 0; /* Margin to add space around the paragraph */
+  border-left: 5px solid #dbe0e4; /* Left border to emphasize the paragraph */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a floating effect */
+  line-height: 1.6; /* Line height for better readability */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+.separator {
+  width: 50%; /* Line width */
+  height: 2px; /* Line height */
+  background-color: #ddd; /* Line color */
+  margin: 10px 0; /* Margin around the line */
+}
+.card {
+  text-align: center; /* Center-align text inside the card */
+  border-radius: 8px; /* Rounded corners for the card */
+  border: 1px solid #ddd; /* Light border for card */
+  margin: 10px; /* Margin for spacing between cards */
+  width: 100%; /* Make sure card fills the column width */
+  height: 100px; /* Fixed height for all cards */
+  display: flex; /* Flexbox to align content */
+  flex-direction: column; /* Align content vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+}
