@@ -25,33 +25,47 @@ include('temp/header.php');
 
         <div class="row" style="height: calc(100% - 150px);">
             <!-- Content on the left -->
-            <div class="col-12 col-lg-6 d-flex align-items-center">
+            <div class="col-12 col-lg-8 d-flex align-items-center">
                 <div>
                     <p class="gen-ai">Generative AI is transforming the insurance industry, particularly in the risk and claims landscape. It streamlines document data extraction and management, handling large volumes of information quickly and accurately. AI-powered chatbots enhance client satisfaction by providing instant, personalized support. Additionally, AI improves fraud detection and underwriting by analyzing patterns and risk factors more effectively. These advancements optimize operations, reduce manual effort, and elevate customer experiences in the insurance sector.</p>
                 </div>
             </div>
 
-            <!-- Form on the right -->
-            <div class="col-12 col-lg-6 d-flex">
-                <div class="card p-3 w-100 shadow-lg border-0 rounded-4 d-flex flex-column justify-content-start" style="height: 100%;">
-                    <!-- Title at the top of the form -->
-                    <h2 class="mb-3 text-center text-primary">Get in Touch</h2>
-                    <div class="card-body d-flex flex-column justify-content-start" style="padding: 1rem;">
-                        <form class="d-flex flex-column" style="gap: 0.5rem;">
-                            <div class="mb-2">
-                                <input type="text" class="form-control" id="name" placeholder="Name" required style="height: 38px;">
-                            </div>
-                            <div class="mb-2">
-                                <input type="tel" class="form-control" id="phone" placeholder="Phone Number" required style="height: 38px;">
-                            </div>
-                            <div class="mb-2">
-                                <textarea class="form-control" id="requirements" placeholder="More Requirements" rows="3" style="resize: none; height: 75px;" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary w-100 py-2">Submit</button>
-                        </form>
-                    </div>
+<!-- Form on the right -->
+<div class="col-12 col-lg-4 d-flex">
+    <div class="card p-3 w-100 shadow-lg border-0 rounded-4 d-flex flex-column justify-content-start" style="height: 100%;">
+        <!-- Title at the top of the form -->
+        <h2 class="mb-3 text-center text-muted">Get in Touch</h2>
+        <div class="card-body d-flex flex-column justify-content-start" style="width: 100%;">
+            <form class="d-flex flex-column" style="gap: 1rem;">
+                <div class="mb-2 w-100">
+                    <!-- Accessibility enhancement: Added label for input -->
+                    <label for="name" class="form-label visually-hidden">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name" required>
                 </div>
-            </div>
+                <div class="mb-2 w-100">
+                    <!-- Accessibility enhancement: Added label for input -->
+                    <label for="phone" class="form-label visually-hidden">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Phone Number" required>
+                </div>
+                <div class="mb-2 w-100">
+                    <!-- Accessibility enhancement: Added label for input -->
+                    <label for="email" class="form-label visually-hidden">Email</label>
+                    <input type="tel" class="form-control" id="email" placeholder="Email" required>
+                </div>
+                <div class="mb-2 w-100">
+                    <!-- Accessibility enhancement: Added label for textarea -->
+                    <label for="requirements" class="form-label visually-hidden">More Requirements</label>
+                    <textarea class="form-control" id="requirements" placeholder="More Requirements" rows="3" style="resize: none;" required></textarea>
+                </div>
+                <div class="w-100">
+                    <button type="submit" class="btn btn-primary w-100 py-2">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
         </div>
     </div>
 
@@ -68,8 +82,15 @@ include('temp/header.php');
             <a href="index.php">
                         <img src="assets/img/insuretecBlacksmall.png" alt="">
                     </a>
-                    <p class="mt-4">In today's rapidly evolving digital landscape, businesses must adapt to new technologies and methodologies to remain competitive. Generative AI offers innovative solutions, transforming industries like insurance with enhanced data analysis, customer engagement, and personalized offerings. Leveraging advanced machine learning models, companies can predict market trends, optimize operations, and provide smarter, faster solutions to clients. Embracing these tools not only drives efficiency but also fosters a culture of continuous improvement, ensuring long-term success and growth in an increasingly digital world.</p>
-            </div>
+                    <p class="mt-4">
+                    The "Hello, World!" program is a simple script that displays the text "Hello, World!" on the screen. It is a fundamental exercise used by programmers to learn the basics of a new programming language. This program can be implemented in virtually all programming languages, from C and Python to Java and JavaScript, making it a universal starting point for beginners in coding and software development.
+
+                    <br>
+                    Programming languages like Python, R, and Julia are commonly used for building AI models due to their powerful libraries and frameworks. Java and C++ offer robust options for developing scalable AI applications. Meanwhile, languages like JavaScript and TypeScript enable AI integration into web platforms.
+                    <br>
+Embracing these tools not only drives efficiency but also fosters a culture of continuous improvement, ensuring long-term success and growth in an increasingly digital world.
+</p>
+                    </div>
 
             <!-- Right Column with 2x2 Grid -->
             <div class="col-md-6">
@@ -138,140 +159,101 @@ include('temp/header.php');
     </div>
 </section>
 
-
-
-    <section class="service-details-post-wrapper section-padding">
-    <div class="container">
-        <div class="row">
-            <!-- Sidebar -->
-            <div class="col-lg-4 col-xl-3 mt-5 mt-lg-0 col-12 order-2 order-lg-1">
-                <div class="service-sidebar">
-                    <div class="single-sidebar-widgets">
-                        <div class="services-category-link">
-                            <a href="cloud-computing.php">Cloud Computing Security</a>
-                            <a href="security-services.php">Security Services</a>
-                            <a href="software-service-details.php">Software Development Services</a>
-                            <a href="database-management.php">Database Management Services</a>
-                            <a href="network-service.php">Network and Infrastructure Services</a>
-                            <a href="it-consulting.php">IT Consulting Services</a>
-                            <a href="data-management.php">Data Management Services</a>
-                        </div>
-                    </div>
-                </div>
+<section class="service-details-post-wrapper section-padding">
+  <div class="container">
+    <div class="row">
+      <!-- Responsive Horizontally Divided Card -->
+      <div class="col-12">
+        
+        <!-- First Card (Image on Right) -->
+        <div class="card card-horizontal mb-4 border shadow-sm">
+          <div class="row g-0">
+            <!-- Card Body on the Left (60%) -->
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">Generative AI strategy & consultancy in insurance</h5>
+                <p class="card-text">Hello World will check for the word count to be less than the number specified in the template which is 20 words.</p>
+                <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
+              </div>
             </div>
-
-            <!-- Content Sections -->
-            <div class="col-lg-7 offset-lg-1 col-xl-7 p-lg-0 col-12 order-1 order-lg-2">
-                <div class="content-section-grid">
-                    <!-- Section 1: Text Left, Image Right -->
-                    <div class="content-item">
-                        <div class="text">
-                            
-                            <h6> Generative AI strategy & consultancy in insurance </h6>
-                            <p class="attractive-paragraph">Hello World will check for the 
-                                word count to be less than the number specified in the templated which is 20 words
-                            </p>
-<a href="contact.php" class="theme-btn-sm mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        <div class="image">
-                            <img src="assets/img/31.jpg" alt="Image 1">
-                        </div>
-                    </div>
-
-                    <!-- Section 2: Image Left, Text Right -->
-                    <div class="content-item reverse">
-                        <div class="image">
-                            <img src="assets/img/blog3.jpg" alt="Image 2">
-                        </div>
-                        <div class="text">
-                            
-                            <h6> Conversational AI & Chatbot trained on your insurance business
-</h6>
-<p class="attractive-paragraph">Hello World will check for the 
-                                word count to be less than the number specified in the templated which is 20 words
-                            </p>
-<a href="contact.php" class="theme-btn-sm mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                    </div>
-
-                    <!-- Repeat Sections as needed -->
-                                      <!-- Section 1: Text Left, Image Right -->
-                    <div class="content-item">
-                        <div class="text">
-                            
-                            <h6> Generative AI adoption and evaluation services
-
-</h6>
-<p class="attractive-paragraph">Hello World will check for the 
-                                word count to be less than the number specified in the templated which is 20 words
-                            </p>
-<a href="contact.php" class="theme-btn-sm mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        <div class="image">
-                            <img src="assets/img/31.jpg" alt="Image 1">
-                        </div>
-                    </div>
-
-                    <!-- Section 2: Image Left, Text Right -->
-                    <div class="content-item reverse">
-                        <div class="image">
-                            <img src="assets/img/blog3.jpg" alt="Image 2">
-                        </div>
-                        <div class="text">
-                            
-                            <h6> Generative AI POC and<br> MVP development
-
-</h6>
-<p class="attractive-paragraph">Hello World will check for the 
-                                word count to be less than the number specified in the templated which is 20 words
-                            </p>
-<a href="contact.php" class="theme-btn-sm mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                    </div>
-
-                    <!-- Repeat Sections as needed -->
-                                      <!-- Section 1: Text Left, Image Right -->
-                                      <div class="content-item">
-                        <div class="text">
-                            
-                            <h6> Generative AI cybersecurity<br> in insurance
-
-</h6>
-<p class="attractive-paragraph">Hello World will check for the 
-                                word count to be less than the number specified in the templated which is 20 words
-                            </p>
-<a href="contact.php" class="theme-btn-sm mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        <div class="image">
-                            <img src="assets/img/31.jpg" alt="Image 1">
-                        </div>
-                    </div>
-
-                    <!-- Section 2: Image Left, Text Right -->
-                    <div class="content-item reverse">
-                        <div class="image">
-                            <img src="assets/img/blog3.jpg" alt="Image 2">
-                        </div>
-                        <div class="text">
-                            
-                            <h6> Gen AI document data extraction and management
-
-</h6>
-<p class="attractive-paragraph">Hello World will check for the 
-                                word count to be less than the number specified in the templated which is 20 words
-                            </p>
-<a href="contact.php" class="theme-btn-sm mt-4 mt-xl-0">Free Consultancy <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                    </div>
-
-
-                    <!-- Repeat Sections as needed -->
-                </div>
+            <!-- Blank Column (20%) -->
+            <div class="col-md-2 blank-column"></div>
+            <!-- Image on the Right (20%) -->
+            <div class="col-md-4">
+              <img src="assets/img/blog2.jpg" class="img-fluid rounded-end" alt="Image 1">
             </div>
+          </div>
         </div>
+
+        <!-- Second Card (Image on Left) -->
+        <div class="card card-horizontal mb-4 border shadow-sm">
+          <div class="row g-0">
+            <!-- Image on the Left (20%) -->
+            <div class="col-md-4">
+              <img src="assets/img/blog2.jpg" class="img-fluid rounded-start" alt="Image 2">
+            </div>
+            <!-- Blank Column (20%) -->
+            <div class="col-md-2 blank-column"></div>
+            <!-- Card Body on the Right (60%) -->
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">Conversational AI & Chatbot trained on your insurance business</h5>
+                <p class="card-text">Hello World will check for the word count to be less than the number specified in the template which is 20 words.</p>
+                <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third Card (Image on Right) -->
+        <div class="card card-horizontal mb-4 border shadow-sm">
+          <div class="row g-0">
+            <!-- Card Body on the Left (60%) -->
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">AI-powered claims management systems</h5>
+                <p class="card-text">Enhance your claims management process with AI, reducing errors and speeding up decision-making.</p>
+                <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <!-- Blank Column (20%) -->
+            <div class="col-md-2 blank-column"></div>
+            <!-- Image on the Right (20%) -->
+            <div class="col-md-4">
+              <img src="assets/img/blog2.jpg" class="img-fluid rounded-end" alt="Image 3">
+            </div>
+          </div>
+        </div>
+
+        <!-- Fourth Card (Image on Left) -->
+        <div class="card card-horizontal mb-4 border shadow-sm">
+          <div class="row g-0">
+            <!-- Image on the Left (20%) -->
+            <div class="col-md-4">
+              <img src="assets/img/blog2.jpg" class="img-fluid rounded-start" alt="Image 4">
+            </div>
+            <!-- Blank Column (20%) -->
+            <div class="col-md-2 blank-column"></div>
+            <!-- Card Body on the Right (60%) -->
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">Customer support automation with AI</h5>
+                <p class="card-text">Deploy AI solutions to automate customer support, providing 24/7 assistance and reducing costs.</p>
+                <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Continue adding more cards as needed -->
+      </div>
     </div>
+  </div>
 </section>
 
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 
     <section class="cta-banner">
         <div class="container-fluid bg-cover section-bg" style="background-image: url('assets/img/cta_bg1.png')">

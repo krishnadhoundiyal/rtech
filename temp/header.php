@@ -144,7 +144,7 @@
         <div class="main-header-wraper">
             <div class="container-fluid">
                 <div class="row align-items-center justify-content-between">
-                    <div class="header-logo">
+                <div class="header-logo">
                         <div class="logo">
                             <a href="index.php">
                                 <img src="assets/img/insuretechwhite_small.png" alt="logo">

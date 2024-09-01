@@ -12691,9 +12691,9 @@ header.header-5 .main-header-wraper .header-search.show .search-box .form-group:
   margin: 10px 0; /* Margin around the line */
 }
 .card {
-  text-align: center; /* Center-align text inside the card */
+  text-align: left; /* Center-align text inside the card */
   border-radius: 8px; /* Rounded corners for the card */
-  border: 1px solid #ddd; /* Light border for card */
+ 
   margin: 10px; /* Margin for spacing between cards */
   width: 100%; /* Make sure card fills the column width */
   height: 100px; /* Fixed height for all cards */
@@ -12701,4 +12701,38 @@ header.header-5 .main-header-wraper .header-search.show .search-box .form-group:
   flex-direction: column; /* Align content vertically */
   justify-content: center; /* Center content vertically */
   align-items: center; /* Center content horizontally */
+}
+.content-item {
+  display: flex; /* Use Flexbox for horizontal layout */
+  flex-direction: row; /* Align children horizontally */
+  align-items: center; /* Center-align vertically */
+  margin-bottom: 30px; /* Space between content items */
+}
+
+.content-item.reverse {
+  flex-direction: row-reverse; /* Reverse order for image left, text right */
+}
+.card-horizontal {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-horizontal img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  max-height: 200px; /* Set a max height to prevent large images from stretching */
+}
+@media (min-width: 768px) {
+  .card-horizontal {
+    flex-wrap: nowrap; /* Do not wrap on medium and larger screens */
+  }
+  .card-horizontal img {
+    max-height: none; /* Allow natural height */
+  }
+}
+.main-header-wraper .row > * {
+  width: auto !important;
+}
+.main-header-wraper a {
+  text-decoration: none;
 }
