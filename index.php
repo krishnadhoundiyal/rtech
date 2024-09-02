@@ -13,7 +13,7 @@ include('temp/header.php');
                         <div class="hero-contents">
                             <!-- <h1>Insurance AI Solutions</h1> -->
                             <p>Next Gen AI solutions for businesses in risk & claims landscape.</p>
-                            <a href="about.php" class="theme-btn minimal-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+                            <a href="ai.php" class="theme-btn minimal-btn">Learn More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@ include('temp/header.php');
                         <div class="hero-contents">
                             <!-- <h1>Insurance ML Solutions</h1> -->
                             <p>Custom Machine Learning solutions for the Insurance industry.</p>
-                            <a href="about.php" class="theme-btn minimal-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+                            <a href="ml.php" class="theme-btn minimal-btn">Learn More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

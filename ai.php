@@ -10,14 +10,14 @@ include('temp/header.php');
             <div class="col-md-12">
                 <div class="page-heading text-white">
                     <div class="page-title">
-                        <h1>Insurance GenAI Services</h1>
+                        <h1>Insurance AI Services</h1>
                     </div>
                 </div>
 
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Insurance GenAI Services</li>
+                        <li class="breadcrumb-item active" aria-current="page">Insurance AI Services</li>
                     </ol>
                 </nav>
             </div>
@@ -27,8 +27,11 @@ include('temp/header.php');
             <!-- Content on the left -->
             <div class="col-12 col-lg-8 d-flex align-items-center">
                 <div>
-                    <p class="gen-ai">Generative AI is transforming the insurance industry, particularly in the risk and claims landscape. It streamlines document data extraction and management, handling large volumes of information quickly and accurately. AI-powered chatbots enhance client satisfaction by providing instant, personalized support. Additionally, AI improves fraud detection and underwriting by analyzing patterns and risk factors more effectively. These advancements optimize operations, reduce manual effort, and elevate customer experiences in the insurance sector.</p>
-                </div>
+                    <p class="gen-ai">
+                    The insurance industry is being transformed by AI, especially in the risk and claims landscape. It optimizes underwriting processes by analyzing complex risk factors with greater accuracy, enabling more precise risk assessments. AI also enhances claims processing by predicting outcomes and identifying patterns that streamline decision-making. In addition, AI-driven analytics improve risk management strategies, helping insurers to better anticipate potential losses and adjust policies accordingly. These advancements are significantly improving efficiency and effectiveness across the insurance sector.
+
+</p>
+                    </div>
             </div>
 
 <!-- Form on the right -->
@@ -184,7 +187,8 @@ include('temp/header.php');
             <!-- Card Body on the Left (60%) -->
             <div class="col-md-6">
               <div class="card-body">
-                <h5 class="card-title">Generative AI strategy & consultancy in insurance</h5>
+                <h5 class="card-title">AI strategy & consultancy in insurance
+                </h5>
                 <p class="card-text">Hello World will check for the word count to be less than the number specified in the template which is 20 words.</p>
                 <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
               </div>
@@ -210,7 +214,8 @@ include('temp/header.php');
             <!-- Card Body on the Right (60%) -->
             <div class="col-md-6">
               <div class="card-body">
-                <h5 class="card-title">Conversational AI & Chatbot trained on your insurance business</h5>
+                <h5 class="card-title">P&C/GL Claims Underwriting automation
+                </h5>
                 <p class="card-text">Hello World will check for the word count to be less than the number specified in the template which is 20 words.</p>
                 <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
               </div>
@@ -224,7 +229,8 @@ include('temp/header.php');
             <!-- Card Body on the Left (60%) -->
             <div class="col-md-6">
               <div class="card-body">
-                <h5 class="card-title">AI-powered claims management systems</h5>
+                <h5 class="card-title">AI based fraud detection models
+                </h5>
                 <p class="card-text">Enhance your claims management process with AI, reducing errors and speeding up decision-making.</p>
                 <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
               </div>
@@ -250,7 +256,8 @@ include('temp/header.php');
             <!-- Card Body on the Right (60%) -->
             <div class="col-md-6">
               <div class="card-body">
-                <h5 class="card-title">Customer support automation with AI</h5>
+                <h5 class="card-title">Custom model development
+                </h5>
                 <p class="card-text">Deploy AI solutions to automate customer support, providing 24/7 assistance and reducing costs.</p>
                 <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
               </div>

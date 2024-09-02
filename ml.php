@@ -2,7 +2,7 @@
 include('temp/header.php');
 ?>
 
-<section class="page-banner-wrap bg-cover d-flex align-items-center position-relative" style="background-image: url('assets/img/service-details-content2.jpg'); min-height: 100vh;">
+<section class="page-banner-wrap bg-cover d-flex align-items-center position-relative" style="background-image: url('assets/img/new.jpg'); min-height: 100vh;">
     <!-- Content Above the Wave -->
     <div class="banner-text">Techex</div>
     <div class="container">
@@ -10,14 +10,14 @@ include('temp/header.php');
             <div class="col-md-12">
                 <div class="page-heading text-white">
                     <div class="page-title">
-                        <h1>Insurance GenAI Services</h1>
+                        <h1>Insurance ML Services</h1>
                     </div>
                 </div>
 
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Insurance GenAI Services</li>
+                        <li class="breadcrumb-item active" aria-current="page">Insurance ML Services</li>
                     </ol>
                 </nav>
             </div>
@@ -27,8 +27,11 @@ include('temp/header.php');
             <!-- Content on the left -->
             <div class="col-12 col-lg-8 d-flex align-items-center">
                 <div>
-                    <p class="gen-ai">Generative AI is transforming the insurance industry, particularly in the risk and claims landscape. It streamlines document data extraction and management, handling large volumes of information quickly and accurately. AI-powered chatbots enhance client satisfaction by providing instant, personalized support. Additionally, AI improves fraud detection and underwriting by analyzing patterns and risk factors more effectively. These advancements optimize operations, reduce manual effort, and elevate customer experiences in the insurance sector.</p>
-                </div>
+                    <p class="gen-ai">
+                    ML and RPA are streamlining operations within the insurance industry by automating repetitive, rule-based tasks. It enables insurers to analyze vast datasets to identify patterns, predict claim outcomes, and assess risks with greater accuracy. ML also improves customer segmentation, allowing for more personalized policy offerings and targeted marketing strategies. RPA excels in automating data entry, policy renewals, and claims processing, significantly reducing manual effort and the potential for errors, allowing insurance professionals to focus on complex tasks.
+
+</p>
+                    </div>
             </div>
 
 <!-- Form on the right -->
@@ -184,7 +187,8 @@ include('temp/header.php');
             <!-- Card Body on the Left (60%) -->
             <div class="col-md-6">
               <div class="card-body">
-                <h5 class="card-title">Generative AI strategy & consultancy in insurance</h5>
+                <h5 class="card-title">Machine Learning strategy consulting
+                </h5>
                 <p class="card-text">Hello World will check for the word count to be less than the number specified in the template which is 20 words.</p>
                 <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
               </div>
@@ -210,7 +214,8 @@ include('temp/header.php');
             <!-- Card Body on the Right (60%) -->
             <div class="col-md-6">
               <div class="card-body">
-                <h5 class="card-title">Conversational AI & Chatbot trained on your insurance business</h5>
+                <h5 class="card-title">Natural Language processing (NLP) services
+                </h5>
                 <p class="card-text">Hello World will check for the word count to be less than the number specified in the template which is 20 words.</p>
                 <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
               </div>
@@ -224,7 +229,8 @@ include('temp/header.php');
             <!-- Card Body on the Left (60%) -->
             <div class="col-md-6">
               <div class="card-body">
-                <h5 class="card-title">AI-powered claims management systems</h5>
+                <h5 class="card-title">RPA or Robotic Process Automation solutions
+                </h5>
                 <p class="card-text">Enhance your claims management process with AI, reducing errors and speeding up decision-making.</p>
                 <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
               </div>
@@ -239,24 +245,7 @@ include('temp/header.php');
         </div>
 
         <!-- Fourth Card (Image on Left) -->
-        <div class="card card-horizontal mb-4 border shadow-sm">
-          <div class="row g-0">
-            <!-- Image on the Left (20%) -->
-            <div class="col-md-4">
-              <img src="assets/img/blog2.jpg" class="img-fluid rounded-start" alt="Image 4">
-            </div>
-            <!-- Blank Column (20%) -->
-            <div class="col-md-2 blank-column"></div>
-            <!-- Card Body on the Right (60%) -->
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">Customer support automation with AI</h5>
-                <p class="card-text">Deploy AI solutions to automate customer support, providing 24/7 assistance and reducing costs.</p>
-                <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
         <!-- Continue adding more cards as needed -->
       </div>
