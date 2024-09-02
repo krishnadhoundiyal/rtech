@@ -2,7 +2,7 @@
 include('temp/header.php');
 ?>
 
-<section class="page-banner-wrap bg-cover d-flex align-items-center position-relative" style="background-image: url('assets/img/service-details-content2.jpg'); min-height: 100vh;">
+<section class="page-banner-wrap bg-cover d-flex align-items-center position-relative" style="background-image: url('assets/img/banner1.png'); min-height: 100vh;">
     <!-- Content Above the Wave -->
     <div class="banner-text">Techex</div>
     <div class="container">
@@ -28,7 +28,7 @@ include('temp/header.php');
             <div class="col-12 col-lg-8 d-flex align-items-center">
                 <div>
                     <p class="gen-ai">
-                    The insurance industry is being transformed by AI, especially in the risk and claims landscape. It optimizes underwriting processes by analyzing complex risk factors with greater accuracy, enabling more precise risk assessments. AI also enhances claims processing by predicting outcomes and identifying patterns that streamline decision-making. In addition, AI-driven analytics improve risk management strategies, helping insurers to better anticipate potential losses and adjust policies accordingly. These advancements are significantly improving efficiency and effectiveness across the insurance sector.
+                    AI is revolutionizing the insurance industry, particularly in the risk and claims landscape. It optimizes underwriting processes by analyzing complex risk factors with greater precision, enabling more accurate risk assessments. AI enhances claims processing by predicting outcomes, identifying patterns, and detecting fraudulent activities, which streamlines decision-making and reduces losses. Additionally, AI-driven analytics refine risk management strategies, allowing insurers to better anticipate potential losses and adjust policies accordingly. Machine learning models further support predictive maintenance and personalized customer service, driving significant improvements in efficiency and effectiveness throughout the insurance sector.
 
 </p>
                     </div>
@@ -85,88 +85,88 @@ include('temp/header.php');
             <a href="index.php">
                         <img src="assets/img/insuretecBlacksmall.png" alt="">
                     </a>
-                    <h1 class="mb-4 text-muted">Why do you need us</h1>
+                    <h1 class="mb-4 text-muted">Why choose RiskInsurTech?</h1>
                     <p class="mt-4">
-                    The "Hello, World!" program is a simple script that displays the text "Hello, World!" on the screen. It is a fundamental exercise used by programmers to learn the basics of a new programming language. This program can be implemented in virtually all programming languages, from C and Python to Java and JavaScript, making it a universal starting point for beginners in coding and software development.
-
+                    Choosing RiskInsurtech means partnering with industry veterans who deeply understand the risk and claims landscape within the insurance sector. Our core team alone, composed of seasoned professionals and data scientists, is dedicated to addressing the unique challenges faced by insurance businesses. We provide a full range of services, including AI, Generative AI, machine learning, NLP, data, and cloud solutions, all specifically tailored to meet the demands of the insurance industry.
                     <br>
-                    Programming languages like Python, R, and Julia are commonly used for building AI models due to their powerful libraries and frameworks, such as TensorFlow, PyTorch, and scikit-learn. Java and C++ offer robust options for developing scalable AI applications and are widely used in enterprise environments for their performance and reliability. Meanwhile, languages like JavaScript and TypeScript enable AI integration into web platforms, bringing machine learning capabilities directly to the browser.
+                    Our seamless approach combines human expertise with cutting-edge technology to deliver impactful results. Our consultants, data architects, and ML engineers bring extensive industry knowledge and collaborate with top-tier partners to ensure your insurance business gets the right technology solutions. With expansive experience and client acumen, our consulting, advisory, and delivery capabilities are designed to help you overcome your most significant challenges in risk and claims management.
                     <br>
-                    Embracing these tools not only drives efficiency but also fosters a culture of continuous improvement, ensuring long-term success and growth in an increasingly digital world. The versatility and adaptability of programming languages and tools enable businesses to stay ahead of technological advancements
+                    At RiskInsurtech, we are committed to responsible practices, ensuring our solutions align with industry standards like HIPAA and GDPR. Whether you're adopting AI, leveraging data, or building scalable cloud platforms, our ability to orchestrate across robust transformation ecosystems keeps your insurance business at the forefront of innovation, empowering you to advance and scale confidently in a competitive market.
                 </p>
                     </div>
 
  <!-- Right side grid 2*2 -->
   <!-- Right Column with 2x2 Grid -->
-<div class="col-md-6">
+  <div class="col-md-6">
     <div class="container mt-5">
         <div class="row">
             <!-- Card 1 -->
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4">
-                <div class="card">
+                <div class="card h-100 d-flex">
                     <div class="card-body d-flex flex-column align-items-center">
                         <!-- Icon -->
                         <div class="icon mb-2">
                             <i class="flaticon-speech-bubble fa-2x"></i>
                         </div>
                         <!-- Card Title -->
-                        <h5 class="card-title">IT Consultancy</h5>
+                        <h5 class="card-title">15+ years of industry experience</h5>
                         <!-- Card Text -->
-                        <p class="card-text">Providing expert guidance to help businesses implement effective IT strategies and solutions.</p>
+                        <p class="card-text">We deliver expert solutions combining risk and claims knowledge with advanced technology skills.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Card 2 -->
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4">
-                <div class="card">
+                <div class="card h-100 d-flex">
                     <div class="card-body d-flex flex-column align-items-center">
                         <!-- Icon -->
                         <div class="icon mb-2">
                             <i class="flaticon-speech-bubble fa-2x"></i>
                         </div>
                         <!-- Card Title -->
-                        <h5 class="card-title">Data Analysis</h5>
+                        <h5 class="card-title">Competitive Pricing</h5>
                         <!-- Card Text -->
-                        <p class="card-text">Unlock insights from your data with advanced analytics and reporting services.</p>
+                        <p class="card-text">The solutions are flexible, scalable, secure, customized to your needs, and cost-effective.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Card 3 -->
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4">
-                <div class="card">
+                <div class="card h-100 d-flex">
                     <div class="card-body d-flex flex-column align-items-center">
                         <!-- Icon -->
                         <div class="icon mb-2">
                             <i class="flaticon-speech-bubble fa-2x"></i>
                         </div>
                         <!-- Card Title -->
-                        <h5 class="card-title">AI Transformation</h5>
+                        <h5 class="card-title">Industry-Leading Security</h5>
                         <!-- Card Text -->
-                        <p class="card-text">Empowering businesses to transform digitally with the latest technologies and methodologies.</p>
+                        <p class="card-text">We follow HIPAA, CCPA, CPRA, CMIA, and responsible AI practices for PII data protection.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Card 4 -->
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4">
-                <div class="card">
+                <div class="card h-100 d-flex">
                     <div class="card-body d-flex flex-column align-items-center">
                         <!-- Icon -->
                         <div class="icon mb-2">
                             <i class="flaticon-speech-bubble fa-2x"></i>
                         </div>
                         <!-- Card Title -->
-                        <h5 class="card-title">Cloud Computing</h5>
+                        <h5 class="card-title">Customer-Centric Focus</h5>
                         <!-- Card Text -->
-                        <p class="card-text">Delivering scalable and secure cloud solutions to enhance your business operations.</p>
+                        <p class="card-text">We personalize every solution to fit your needs and priorities with care.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 
     </div>
 
@@ -187,9 +187,9 @@ include('temp/header.php');
             <!-- Card Body on the Left (60%) -->
             <div class="col-md-6">
               <div class="card-body">
-                <h5 class="card-title">AI strategy & consultancy in insurance
+                <h5 class="card-title">AI integration of ChatGPT
                 </h5>
-                <p class="card-text">Hello World will check for the word count to be less than the number specified in the template which is 20 words.</p>
+                <p class="card-text"> Integrate ChatGPT into your CMS, website, or mobile app to enhance customer interactions and optimize operational efficiency.</p>
                 <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
@@ -197,7 +197,7 @@ include('temp/header.php');
             <div class="col-md-2 blank-column"></div>
             <!-- Image on the Right (20%) -->
             <div class="col-md-4">
-              <img src="assets/img/blog2.jpg" class="img-fluid rounded-end" alt="Image 1">
+              <img src="assets/img/3.png" class="img-fluid rounded-end" alt="Image 1">
             </div>
           </div>
         </div>
@@ -207,7 +207,7 @@ include('temp/header.php');
           <div class="row g-0">
             <!-- Image on the Left (20%) -->
             <div class="col-md-4">
-              <img src="assets/img/blog2.jpg" class="img-fluid rounded-start" alt="Image 2">
+              <img src="assets/img/1.png" class="img-fluid rounded-start" alt="Image 2">
             </div>
             <!-- Blank Column (20%) -->
             <div class="col-md-2 blank-column"></div>
@@ -216,7 +216,7 @@ include('temp/header.php');
               <div class="card-body">
                 <h5 class="card-title">P&C/GL Claims Underwriting automation
                 </h5>
-                <p class="card-text">Hello World will check for the word count to be less than the number specified in the template which is 20 words.</p>
+                <p class="card-text">Streamline property and casualty underwriting with intelligent automation for faster, more accurate evaluations.</p>
                 <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
@@ -229,9 +229,9 @@ include('temp/header.php');
             <!-- Card Body on the Left (60%) -->
             <div class="col-md-6">
               <div class="card-body">
-                <h5 class="card-title">AI based fraud detection models
+                <h5 class="card-title">AI-Powered Fraud Detection| 
                 </h5>
-                <p class="card-text">Enhance your claims management process with AI, reducing errors and speeding up decision-making.</p>
+                <p class="card-text">Uncover and prevent fraudulent claims with advanced AI algorithms.</p>
                 <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
@@ -239,7 +239,7 @@ include('temp/header.php');
             <div class="col-md-2 blank-column"></div>
             <!-- Image on the Right (20%) -->
             <div class="col-md-4">
-              <img src="assets/img/blog2.jpg" class="img-fluid rounded-end" alt="Image 3">
+              <img src="assets/img/10.png" class="img-fluid rounded-end" alt="Image 3">
             </div>
           </div>
         </div>
@@ -249,7 +249,7 @@ include('temp/header.php');
           <div class="row g-0">
             <!-- Image on the Left (20%) -->
             <div class="col-md-4">
-              <img src="assets/img/blog2.jpg" class="img-fluid rounded-start" alt="Image 4">
+              <img src="assets/img/6.png" class="img-fluid rounded-start" alt="Image 4">
             </div>
             <!-- Blank Column (20%) -->
             <div class="col-md-2 blank-column"></div>
@@ -258,7 +258,7 @@ include('temp/header.php');
               <div class="card-body">
                 <h5 class="card-title">Custom model development
                 </h5>
-                <p class="card-text">Deploy AI solutions to automate customer support, providing 24/7 assistance and reducing costs.</p>
+                <p class="card-text">Develop tailored AI models to optimize risk assessment and claims management.</p>
                 <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
