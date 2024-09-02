@@ -82,19 +82,21 @@ include('temp/header.php');
             <a href="index.php">
                         <img src="assets/img/insuretecBlacksmall.png" alt="">
                     </a>
+                    <h1 class="mb-4 text-muted">Why do you need us</h1>
                     <p class="mt-4">
                     The "Hello, World!" program is a simple script that displays the text "Hello, World!" on the screen. It is a fundamental exercise used by programmers to learn the basics of a new programming language. This program can be implemented in virtually all programming languages, from C and Python to Java and JavaScript, making it a universal starting point for beginners in coding and software development.
 
                     <br>
-                    Programming languages like Python, R, and Julia are commonly used for building AI models due to their powerful libraries and frameworks. Java and C++ offer robust options for developing scalable AI applications. Meanwhile, languages like JavaScript and TypeScript enable AI integration into web platforms.
+                    Programming languages like Python, R, and Julia are commonly used for building AI models due to their powerful libraries and frameworks, such as TensorFlow, PyTorch, and scikit-learn. Java and C++ offer robust options for developing scalable AI applications and are widely used in enterprise environments for their performance and reliability. Meanwhile, languages like JavaScript and TypeScript enable AI integration into web platforms, bringing machine learning capabilities directly to the browser.
                     <br>
-Embracing these tools not only drives efficiency but also fosters a culture of continuous improvement, ensuring long-term success and growth in an increasingly digital world.
-</p>
+                    Embracing these tools not only drives efficiency but also fosters a culture of continuous improvement, ensuring long-term success and growth in an increasingly digital world. The versatility and adaptability of programming languages and tools enable businesses to stay ahead of technological advancements
+                </p>
                     </div>
 
-            <!-- Right Column with 2x2 Grid -->
-            <div class="col-md-6">
-            <div class="container mt-5">
+ <!-- Right side grid 2*2 -->
+  <!-- Right Column with 2x2 Grid -->
+<div class="col-md-6">
+    <div class="container mt-5">
         <div class="row">
             <!-- Card 1 -->
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4">
@@ -106,7 +108,9 @@ Embracing these tools not only drives efficiency but also fosters a culture of c
                         </div>
                         <!-- Card Title -->
                         <h5 class="card-title">IT Consultancy</h5>
-                        </div>
+                        <!-- Card Text -->
+                        <p class="card-text">Providing expert guidance to help businesses implement effective IT strategies and solutions.</p>
+                    </div>
                 </div>
             </div>
 
@@ -120,7 +124,9 @@ Embracing these tools not only drives efficiency but also fosters a culture of c
                         </div>
                         <!-- Card Title -->
                         <h5 class="card-title">Data Analysis</h5>
-                        </div>
+                        <!-- Card Text -->
+                        <p class="card-text">Unlock insights from your data with advanced analytics and reporting services.</p>
+                    </div>
                 </div>
             </div>
 
@@ -133,8 +139,10 @@ Embracing these tools not only drives efficiency but also fosters a culture of c
                             <i class="flaticon-speech-bubble fa-2x"></i>
                         </div>
                         <!-- Card Title -->
-                        <h5 class="card-title">Digital Transformation</h5>
-                        </div>
+                        <h5 class="card-title">AI Transformation</h5>
+                        <!-- Card Text -->
+                        <p class="card-text">Empowering businesses to transform digitally with the latest technologies and methodologies.</p>
+                    </div>
                 </div>
             </div>
 
@@ -148,10 +156,15 @@ Embracing these tools not only drives efficiency but also fosters a culture of c
                         </div>
                         <!-- Card Title -->
                         <h5 class="card-title">Cloud Computing</h5>
-                        </div>
+                        <!-- Card Text -->
+                        <p class="card-text">Delivering scalable and secure cloud solutions to enhance your business operations.</p>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
     </div>
 
             </div>
