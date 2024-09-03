@@ -210,9 +210,79 @@ $(document).ready(function(){
 
     // Initial start of the loading bar for the first slide
     resetAndStartLoadingBar({ item: { index: 0, count: $('.owl-carousel .single-slide').length }, relatedTarget: { _clones: [] } });
+// Form functionality
+    // Enable download button only if all fields are filled
+    $('#downloadForm input').on('input', function() {
+        if ($('#email').val() && $('#name').val() && $('#phone').val()) {
+            $('#downloadBtn').prop('disabled', false);
+        } else {
+            $('#downloadBtn').prop('disabled', true);
+        }
+    });
+
+    // Handle the download button click
+    $('#downloadBtn').click(function() {
+        if (!$(this).prop('disabled')) {
+            window.location.href = 'assets/pdf/dummy-pdf_2.pdf'; // Replace with your actual PDF path
+        }
+    });
 });
 </script>
 <style>
+
+.gradient-background {
+        background: linear-gradient(to right, #89a7b8, #ffffff); /* Gradient from light pink to white */
+    }
+
+    .input-soft {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 10px;
+        font-size: 15px;
+        background-color: #fff;
+        transition: border-color 0.3s ease;
+    }
+
+    .input-soft:focus {
+        border-color: #007bff; /* Soft blue on focus */
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.2); /* Subtle shadow effect */
+    }
+
+    .soft-button {
+        background-color: #007bff; /* Common primary color */
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+    .soft-button:disabled {
+        background-color: #cccccc; /* Gray for disabled state */
+    }
+
+    .soft-button:hover:not(:disabled) {
+        background-color: #0056b3; /* Slightly darker blue on hover */
+    }
+
+    .modal-header {
+        border-bottom: 1px solid #ddd; /* Soft border for header */
+    }
+
+    .modal-title {
+        color: #333; /* Neutral color for title */
+    }
+    #formModal {
+        margin-top: 100px; /* Pushes the modal down from the top */
+    }
+
+    @media (max-width: 767.98px) {
+        /* Adjust modal positioning for smaller screens */
+        #formModal {
+            margin-top: 100px; /* Less margin on smaller screens for better responsiveness */
+        }
+    }
     .highlight {
         background-color: red; /* Highlight background color */
         color: red !important;
@@ -228,121 +298,146 @@ $(document).ready(function(){
 <section class="features-wrapper features-2 section-padding">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-12 col-xl-6">
+            <div class="col-12">
                 <div class="row mtm-30">
-                    <div class="col-lg-6 col-md-6 col-12">
+                    <div class="col-lg-4 col-md-6 col-12">
                         <div class="icon-box">
-                            <a href="cloud-computing.php">
+                            <a href="gen-ai.php">
                                 <div class="icon">
                                     <i class="flaticon flaticon-monitor"></i>
                                 </div>
-                                <h4><a href="cloud-computing.php">Cloud Computing Security</a></h4>
+                                <h4><a href="gen-ai.php">Gen AI Services</a></h4>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12">
+                    <div class="col-lg-4 col-md-6 col-12">
                         <div class="icon-box">
-                            <a href="security-services.php">
+                            <a href="ai.php">
                                 <div class="icon">
                                     <i class="flaticon flaticon-pyramid"></i>
                                 </div>
-                                <h4><a href="security-services.php">Security Services</a></h4>
+                                <h4><a href="ai.php">AI Solutions</a></h4>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12">
+                    <div class="col-lg-4 col-md-6 col-12">
                         <div class="icon-box">
-                            <a href="software-service-details.php">
+                            <a href="ml.php">
                                 <div class="icon">
                                     <i class="flaticon flaticon-diagram"></i>
                                 </div>
-                                <h4><a href="software-service-details.php">Software Development </a></h4>
+                                <h4><a href="ml.php">Machine Learning Services</a></h4>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12">
+                    <div class="col-lg-4 col-md-6 col-12">
                         <div class="icon-box">
-                            <a href="database-management.php">
-                                <div class="icon">
-                                    <i class="flaticon flaticon-diagram-1"></i>
-                                </div>
-                                <h4><a href="database-management.php">Database Management </a></h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <div class="icon-box">
-                            <a href="network-service.php">
+                            <a href="ml.php">
                                 <div class="icon">
                                     <i class="flaticon flaticon-meeting"></i>
                                 </div>
-                                <h4><a href="network-service.php">Network and Infrastructure </a></h4>
+                                <h4><a href="ml.php">MLOps and DevOps</a></h4>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12">
+                    <div class="col-lg-4 col-md-6 col-12">
                         <div class="icon-box">
-                            <a href="it-consulting.php">
+                            <a href="cloud-computing.php">
                                 <div class="icon">
                                     <i class="flaticon flaticon-stats"></i>
                                 </div>
-                                <h4><a href="it-consulting.php">IT Consulting </a></h4>
+                                <h4><a href="cloud-computing.php">Cloud Native Solutions</a></h4>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12">
+                    <div class="col-lg-4 col-md-6 col-12">
                         <div class="icon-box">
                             <a href="data-management.php">
                                 <div class="icon">
                                     <i class="flaticon flaticon-stats"></i>
                                 </div>
-                                <h4><a href="data-management.php">Data Management Services </a></h4>
+                                <h4><a href="data-management.php">Data Management Services</a></h4>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <div class="icon-box">
-                            <a href="insurance-ai.php">
-                                <div class="icon">
-                                    <i class="flaticon flaticon-stats"></i>
-                                </div>
-                                <h4><a href=".php">Insurance AI Solutions </a></h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <div class="icon-box">
-                            <a href="insurance-genai.php">
-                                <div class="icon">
-                                    <i class="flaticon flaticon-stats"></i>
-                                </div>
-                                <h4><a href="data-management.php">Insurance GenAI Solution </a></h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <div class="icon-box">
-                            <a href="insurance-ml.php">
-                                <div class="icon">
-                                    <i class="flaticon flaticon-stats"></i>
-                                </div>
-                                <h4><a href="data-management.php">Insurance ML Solutions </a></h4>
-                        </div>
-                    </div>
-                    <!-- <div class="col-lg-6 col-md-6 col-12">
-                        <div class="icon-box">
-                            <div class="icon">
-                                <i class="flaticon flaticon-stats"></i>
-                            </div>
-                            <h4><a href="#">Data Management Services</a></h4>
-                        </div>
-                    </div> -->
+                   
                 </div>
             </div>
-            <div class="col-12 col-xl-5 offset-xl-1 mt-5 mt-xl-0">
-                <div class="section-title">
-                    <p>How can help you</p>
-                    <h1>Business Solutions To Growth Business</h1>
+        </div>
+    </div>
+    <svg class="feature-bg">
+        <path fill-rule="evenodd" opacity="0.039" fill="rgb(8, 106, 215)"
+            d="M-0.000,232.999 C-0.000,232.999 239.131,-52.566 575.000,47.000 C910.869,146.565 1087.000,55.653 1231.000,19.999 C1375.000,-15.654 1800.820,-31.520 1915.000,232.999 C1445.000,232.999 -0.000,232.999 -0.000,232.999 Z" />
+    </svg>
+</section>
+
+<section class="features-wrapper features-2 section-padding">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12">
+                <div class="row mtm-30">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="icon-box">
+                            
+                                <div class="icon">
+                                    <i class="flaticon flaticon-monitor"></i>
+                                </div>
+                                <h4>TPAs</h4>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="icon-box">
+                            
+                                <div class="icon">
+                                    <i class="flaticon flaticon-pyramid"></i>
+                                </div>
+                                <h4>JPAs</h4>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="icon-box">
+                    
+                                <div class="icon">
+                                    <i class="flaticon flaticon-diagram"></i>
+                                </div>
+                                <h4>Risk Pools</h4>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="icon-box">
+                            
+                                <div class="icon">
+                                    <i class="flaticon flaticon-meeting"></i>
+                                </div>
+                                <h4>Insurers</h4>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="icon-box">
+                           
+                                <div class="icon">
+                                    <i class="flaticon flaticon-stats"></i>
+                                </div>
+                                <h4>Self Insured</h4>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="icon-box">
+                            
+                                <div class="icon">
+                                    <i class="flaticon flaticon-stats"></i>
+                                </div>
+                                <h4>Brokers</h4>
+                            
+                        </div>
+                    </div>
+                   
                 </div>
-                <p class="mt-20">RiskInsurTech has established itself as a preferred partner for providing high-quality
-                    support services in the insurance market by leveraging its extensive industry knowledge, expertise
-                    in business processes, global delivery capabilities, flexible engagement models, and a track record
-                    of successful projects.
-                    RiskInsurTech, is based in Cerritos, California, focuses on providing specialized services to the
-                    insurance industry. Our clients include prominent insurance carriers, third-party administrators,
-                    JPAs, and self-insured corporations.</p>
-                <a href="about.php" class="theme-btn mt-30">Learn more <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
     </div>
@@ -861,19 +956,46 @@ $(document).ready(function(){
         <div class="cta-content">
             <div class="row align-items-center">
                 <div class="col-xl-7 text-white col-12 text-center text-xl-left">
-                    <h1>Ready To Get Free Consulations For <br> Any Kind Of It Solutions ? </h1>
+                    <h1>Ready To Get Free Consultations For <br> Any Kind Of IT Solutions?</h1>
                 </div>
                 <div class="col-xl-5 col-12 text-center text-xl-right">
-                    <a href="contact.php" class="theme-btn mt-4 mt-xl-0">Get a quote <i
-                            class="fas fa-arrow-right"></i></a>
-                    <a href="#" class="ml-sm-3 mt-4 mt-xl-0 theme-btn minimal-btn">read more <i
-                            class="fas fa-arrow-right"></i></a>
+                    <a href="contact.php" class="theme-btn mt-4 mt-xl-0">Get a quote <i class="fas fa-arrow-right"></i></a>
+                    <!-- Button to trigger modal -->
+                    <button type="button" class="ml-sm-3 mt-4 mt-xl-0 theme-btn minimal-btn" data-toggle="modal" data-target="#formModal">Read more <i class="fas fa-arrow-right"></i></button>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<!-- Modal -->
+ <!-- Modal Structure -->
+ <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-custom" role="document">
+        <div class="modal-content gradient-background">
+            <div class="modal-header">
+                <h5 class="modal-title" id="formModalLabel">Fill Out the Form to Download</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="downloadForm">
+                    <div class="form-group">
+                        <input type="email" class="form-control input-soft" id="email" placeholder="Email address *" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control input-soft" id="name" placeholder="Full Name *" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control input-soft" id="phone" placeholder="Phone Number *" required>
+                    </div>
+                    <button type="button" id="downloadBtn" class="btn btn-primary soft-button" disabled>Download PDF</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 <?php
    include('temp/footer.php');
    ?>
