@@ -295,7 +295,106 @@ $(document).ready(function(){
     margin-top: 5px; /* Space between text and line */
 }
     </style>
+<section class="service-details-post-wrapper section-padding">
+<div class="container">
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-6">
+            <a href="index.php">
+                        <img src="assets/img/insuretecBlacksmall.png" alt="">
+                    </a>
+                    <h1 class="mb-4 text-muted">Why choose RiskInsurTech?</h1>
+                    <p class="mt-4">
+                    Choosing RiskInsurtech means partnering with industry veterans who deeply understand the risk and claims landscape within the insurance sector. Our core team alone, composed of seasoned professionals and data scientists, is dedicated to addressing the unique challenges faced by insurance businesses. We provide a full range of services, including AI, Generative AI, machine learning, NLP, data, and cloud solutions, all specifically tailored to meet the demands of the insurance industry.
+                    <br>
+                    Our seamless approach combines human expertise with cutting-edge technology to deliver impactful results. Our consultants, data architects, and ML engineers bring extensive industry knowledge and collaborate with top-tier partners to ensure your insurance business gets the right technology solutions. With expansive experience and client acumen, our consulting, advisory, and delivery capabilities are designed to help you overcome your most significant challenges in risk and claims management.
+                    <br>
+                    At RiskInsurtech, we are committed to responsible practices, ensuring our solutions align with industry standards like HIPAA and GDPR. Whether you're adopting AI, leveraging data, or building scalable cloud platforms, our ability to orchestrate across robust transformation ecosystems keeps your insurance business at the forefront of innovation, empowering you to advance and scale confidently in a competitive market.
+                </p>
+                    </div>
+
+ <!-- Right side grid 2*2 -->
+  <!-- Right Column with 2x2 Grid -->
+  <div class="col-md-6">
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4">
+                <div class="card h-100 d-flex">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <!-- Icon -->
+                        <div class="icon mb-2">
+                            <i class="flaticon-speech-bubble fa-2x"></i>
+                        </div>
+                        <!-- Card Title -->
+                        <h5 class="card-title">15+ years of industry experience</h5>
+                        <!-- Card Text -->
+                        <p class="card-text">We deliver expert solutions combining risk and claims knowledge with advanced technology skills.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4">
+                <div class="card h-100 d-flex">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <!-- Icon -->
+                        <div class="icon mb-2">
+                            <i class="flaticon-speech-bubble fa-2x"></i>
+                        </div>
+                        <!-- Card Title -->
+                        <h5 class="card-title">Competitive Pricing</h5>
+                        <!-- Card Text -->
+                        <p class="card-text">The solutions are flexible, scalable, secure, customized to your needs, and cost-effective.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4">
+                <div class="card h-100 d-flex">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <!-- Icon -->
+                        <div class="icon mb-2">
+                            <i class="flaticon-speech-bubble fa-2x"></i>
+                        </div>
+                        <!-- Card Title -->
+                        <h5 class="card-title">Industry-Leading Security</h5>
+                        <!-- Card Text -->
+                        <p class="card-text">We follow HIPAA, CCPA, CPRA, CMIA, and responsible AI practices for PII data protection.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-4">
+                <div class="card h-100 d-flex">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <!-- Icon -->
+                        <div class="icon mb-2">
+                            <i class="flaticon-speech-bubble fa-2x"></i>
+                        </div>
+                        <!-- Card Title -->
+                        <h5 class="card-title">Customer-Centric Focus</h5>
+                        <!-- Card Text -->
+                        <p class="card-text">We personalize every solution to fit your needs and priorities with care.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    </div>
+
+            </div>
+        </div>
+    </div>
+</section>
 <section class="features-wrapper features-2 section-padding">
+<h2 class="mb-4 text-muted" style="text-align:center">Our Solutions</h2>
+
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12">
@@ -372,6 +471,7 @@ $(document).ready(function(){
 </section>
 
 <section class="features-wrapper features-2 section-padding">
+<h2 class="mb-4 text-muted" style="text-align:center">Who we serve</h2>
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12">
@@ -447,53 +547,7 @@ $(document).ready(function(){
     </svg>
 </section>
 
-<section class="about-us-wrapper section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-6 col-lg-6 col-12 pr-xl-5">
-                <div class="section-title mb-30">
-                    <p>About Company</p>
-                    <h1>7+ Year Of Experience <br> In IT Solutions</h1>
-                </div>
 
-                <p class="pr-md-5">RiskInsurTech is an IT services company specializing in providing quality support
-                    services to the insurance industry. Headquartered in Cerritos, California, we have established
-                    ourselves as a trusted partner for leading insurance carriers, third-party administrators, JPAs, and
-                    self-insured corporations. Our expertise in business processes, global delivery capabilities, and
-                    flexible engagement models has enabled us to deliver successful projects and earn proven
-                    credentials. At RiskInsurTech, we are committed to serving the insurance industry with our deep
-                    industry knowledge and unwavering dedication to quality services
-                </p>
-
-                <div class="about-check-list d-flex">
-                    <div class="banner bg-cover" style="background-image: url('assets/img/about_list.jpg')"></div>
-
-                    <ul class="checked-list">
-                        <li>Cloud Computing Security</li>
-                        <li>Security Services</li>
-                        <li>Software Development Services</li>
-                        <li>Database Management Services</li>
-                        <li>Network and Infrastructure </li>
-                        <li>IT Consulting Services</li>
-                        <li>Data Management Services</li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div class="col-xl-6 col-md-10 col-lg-6 pl-xl-5 col-12 mt-5 mt-xl-0">
-                <div class="about-thum">
-                    <div class="item top-image text-right">
-                        <img src="assets/img/about-big-thumb-1.jpg" alt="rrdevs">
-                    </div>
-                    <div class="item bottom-image">
-                        <img src="assets/img/about-big-thumb-2.jpg" alt="rrdevs">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- <section class="funfact-wrapper bottom text-white">
     <div class="container">
@@ -956,7 +1010,11 @@ $(document).ready(function(){
         <div class="cta-content">
             <div class="row align-items-center">
                 <div class="col-xl-7 text-white col-12 text-center text-xl-left">
-                    <h1>Ready To Get Free Consultations For <br> Any Kind Of IT Solutions?</h1>
+                    <h2>
+                    Read how insurtech led the Gen AI adaption at Klear.ai.
+                    a prominent software provider in the risk and claims landscape industry
+
+                    </h2>
                 </div>
                 <div class="col-xl-5 col-12 text-center text-xl-right">
                     <a href="contact.php" class="theme-btn mt-4 mt-xl-0">Get a quote <i class="fas fa-arrow-right"></i></a>
