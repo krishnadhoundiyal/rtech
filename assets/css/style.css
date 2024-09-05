@@ -2888,7 +2888,7 @@ header.header-2 .main-menu ul > li > ul {
   position: absolute;
   top: 100%;
   width: 230px;
-  background-color: #086ad7;
+  background-color: #ffffff;
   left: 0;
   z-index: 999;
   -webkit-box-shadow: 0 13px 35px -12px rgba(35, 35, 35, 0.15);
@@ -2903,14 +2903,22 @@ header.header-2 .main-menu ul > li > ul {
 }
 header.header-2 .main-menu ul > li > ul li {
   display: block;
+  border-top: 1px solid #ddd;
+}
+.sub-menu a {
+  font-size: 14px !important;
+}
+header.header-2 .main-menu ul > li > ul li:first-child {
+  display: block;
+  border-top: none;
 }
 header.header-2 .main-menu ul > li > ul li a {
   display: block;
-  color: #fff;
+  color: #706a6a;
   padding: 12px 25px;
 }
 header.header-2 .main-menu ul > li > ul li a:hover {
-  color: #fff;
+  color: #000000;
 }
 header.header-2 .main-menu ul > li > ul ul {
   left: 100%;
@@ -12329,11 +12337,10 @@ header.header-5 .main-header-wraper .header-search.show .search-box .form-group:
 .footer-wrap .single-footer-wid ul li {
   position: relative;
   z-index: 1;
-  padding-left: 20px;
+  
 }
 .footer-wrap .single-footer-wid ul li::before {
   position: absolute;
-  content: "\f101";
   left: 0;
   font-family: "Font Awesome 5 Pro";
 }
@@ -12345,6 +12352,7 @@ header.header-5 .main-header-wraper .header-search.show .search-box .form-group:
   transition: all 0.3s;
   font-weight: 500;
   text-transform: capitalize;
+  font-size: small;
 }
 @media (max-width: 1191px) {
   .footer-wrap .single-footer-wid ul li > a {

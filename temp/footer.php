@@ -1,106 +1,130 @@
 <footer class="footer-2 footer-wrap">
-<div class="footer-widgets">            
+  <div class="footer-widgets">
     <div class="container">
-        <div class="row justify-content-between">
-            <div class="col-md-6 col-xl-6 col-12 pr-xl-4">
-                <div class="single-footer-wid site_footer_widget">
-                    <a href="index.php">
-                        <img src="assets/img/insuretecBlacksmall.png" alt="">
-                    </a>
-                    <p class="mt-4">RiskInsurTech is dedicated to serving the insurance industry with a team of seasoned professionals who offer a wide range of specialized services to help businesses flourish in the digital era. With a strong focus on excellence and deep expertise in our field, we have assisted numerous clients in reaching their objectives and surmounting obstacles.
-                    </p>
-                    <div class="social-link mt-30">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <!-- <a href="#"><i class="fab fa-behance"></i></a> -->
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div> <!-- /.col-lg-3 - single-footer-wid -->
-            <div class="col-md-3 col-xl-2 col-12">                        
-                <div class="single-footer-wid">
-                    <div class="wid-title">
-                        <h4>Company</h4>
-                    </div>
-                    <ul>
-                    <li><a href="index.php">Home</a></li>
-                        <li><a href="about.php">About Us</a></li>
-                        <li><a href="services.php">Services </a></li>
-                        <li><a href="contact.php">Contact Us</a></li>
-                        <!-- <li><a href="#">Working Process</a></li> -->
-                        
-                    </ul>
-                </div>
-            </div> <!-- /.col-lg-3 - single-footer-wid -->
-            <div class="col-md-3 col-xl-2 col-12">                        
-                <div class="single-footer-wid">
-                    <div class="wid-title">
-                        <h4>Services</h4>
-                    </div>
-                    <ul>
-                    <li><a href="cloud-computing.php">Cloud Computing Security</a></li>
-                        <li><a href="security-services.php">Security Services</a></li>
-                        <li><a href="software-service-details.php">Software Development </a></li>
-                        <li> <a href="data-management.php">Data Management Services</a></li>
-                      
-                        <!-- <li><a href="#">Working Process</a></li> -->
-                        
-                    </ul>
-                </div>
-            </div> <!-- /.col-lg-3 - single-footer-wid -->
-            <div class="col-md-3 col-xl-2 col-12">                        
-                <div class="single-footer-wid">
-                    <div class="wid-title">
-                        <h4>Services</h4>
-                    </div>
-                    <ul>
-                    <li><a href="database-management.php">Database Management </a></li>
-                    <li><a href="network-service.php">Network and Infrastructure </a></li>
-                    <li> <a href="it-consulting.php">IT Consulting Services</a></li>                     
-                   
-                        
-                    </ul>
-                </div>
-            </div>
-            <!-- /.col-lg-3 - single-footer-wid -->
-            <!-- <div class="col-md-6 col-xl-3 col-12">
-                <div class="single-footer-wid recent_post_widget">
-                    <div class="wid-title">
-                        <h4>News News</h4>
-                    </div>
-                    <div class="recent-post-list">
-                        <div class="single-recent-post">
-                            <div class="thumb bg-cover" style="background-image: url('assets/img/blog/b1.jpg');"></div>
-                            <div class="post-data">
-                                <span><i class="fal fa-calendar-alt"></i>24th Nov 2020</span>
-                                <h5><a href="news-details.html">User’s Perspes Using Story Structure</a></h5>
-                            </div>
-                        </div>
-                        <div class="single-recent-post">
-                            <div class="thumb bg-cover" style="background-image: url('assets/img/blog/b2.jpg');"></div>
-                            <div class="post-data">
-                                <span><i class="fal fa-calendar-alt"></i>15th July 2021</span>
-                                <h5><a href="news-details.html">Optimiz For Assistive Technology Users</a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> /.col-lg-3 - single-footer-wid -->
+
+      <!-- First Row: Logo and Introduction -->
+      <div class="row justify-content-between mb-4">
+        <div class="col-md-6 col-xl-6 col-12 pr-xl-4">
+          <div class="single-footer-wid site_footer_widget">
+            <a href="index.php">
+              <img src="assets/img/insuretecBlacksmall.png" alt="">
+            </a>
+            <p class="mt-4">
+              NEXT GEN AI SOLUTIONS FOR RISK AND CLAIMS LANDSCAPE
+            </p>
+          </div>
         </div>
-    </div>
+      </div>
+
+      <!-- Second Row: Company, Services, Form -->
+      <div class="row justify-content-between">
+
+
+        <!-- Services Column -->
+        <div class="col-md-3 col-xl-2 col-12">
+          <div class="single-footer-wid">
+            <div class="wid-title">
+              <h4>Services</h4>
+            </div>
+            <ul style="padding-left:0 !important">
+              <li><a href="cloud-computing.php">Insurance AI solutions
+              </a></li>
+              <li><a href="security-services.php">Insurance genai-solutions
+              </a></li>
+              <li><a href="software-service-details.php">Insurance ML solutions
+              </a></li>
+              <li><a href="data-management.php">Insurance Cloud integration solutions
+              </a></li>
+              <li><a href="data-management.php">Insurance DevOps Solutions
+
+              </a></li>
+              <li><a href="data-management.php">Insurance MLOps solutions
+
+              </a></li>
+              <li><a href="data-management.php">Insurance QA Automation solutions
+
+              </a></li>
+              <li><a href="data-management.php">Insurance Big Data Solutions
+
+              </a></li>
+              <li><a href="data-management.php">Insurance Web application development solutions
+
+              </a></li>
+            </ul>
+          </div>
+        </div>
+                <!-- Company Column -->
+                <div class="col-md-3 col-xl-2 col-12">
+          <div class="single-footer-wid">
+            <div class="wid-title">
+              <h4>Who we serve</h4>
+            </div>
+            <ul style="padding-left:0 !important">
+              <li><a href="index.php">TPAs/JPAs</a></li>
+              <li><a href="about.php">Insurers</a></li>
+              <li><a href="services.php">Self Insured</a></li>
+              <li><a href="contact.php">Solftware Provider in Risk and claims landscapes</a></li>
+            </ul>
+            <img src="assets/img/Picture1.png" alt="HIPAA vs. GDPR" class="mt-3" style="max-width: 100%;">
+          </div>
+        </div>
+
+        <!-- Additional Services Column -->
+        <div class="col-md-3 col-xl-2 col-12">
+          <div class="single-footer-wid">
+            <div class="wid-title">
+              <h4>Resources</h4>
+            </div>
+            <ul style="padding-left:0 !important">
+              <li><a href="database-management.php">Blogs</a></li>
+              <li><a href="network-service.php">Case Studies</a></li>
+              <li><a href="index.php">About Us</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- New Form Column -->
+        <div class="col-md-3 col-xl-3 col-12">
+  <div class="single-footer-wid">
+    
+    <!-- Form with Border -->
+    <form action="subscribe.php" method="post" class="p-3 border rounded" style="background-color:#36454F">
+      <!-- First Row: Two Fields on the Same Row -->
+<!-- Second Row: Single Field -->
+<div class="form-group">
+        <input type="email" class="form-control" name="email" placeholder="Enter your Name" required>
+      </div>
+    <!-- Second Row: Single Field -->
+            <div class="form-group">
+        <input type="email" class="form-control" name="email" placeholder="Enter your Phone" required>
+      </div>
+      
+      <!-- Second Row: Single Field -->
+      <div class="form-group">
+        <input type="email" class="form-control" name="email" placeholder="Enter your email" required>
+      </div>
+      
+      <!-- Third Row: Textarea Field -->
+      <div class="form-group">
+        <textarea class="form-control" name="message" placeholder="Enter your message" rows="3" required></textarea>
+      </div>
+      
+      <!-- Submit Button -->
+      <button type="submit" class="btn btn-primary btn-sm mt-3 btn-block">Subscribe</button>
+    </form>
+  </div>
 </div>
 
-<div class="footer-bottom">
-    <div class="container text-center">
-        <div class="footer-bottom-content">
-           2023 ©  <a href="index.php">Neural Info Solutions Pvt Ltd</a>. All Rights Reserved
-        </div>
+
+      </div>
+
     </div>
-</div>
+  </div>
+
+
 </footer>
 
-<!--  ALl JS Plugins
-====================================== -->
+<!-- All JS Plugins -->
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/modernizr.min.js"></script>
 <script src="assets/js/jquery.easing.js"></script>
@@ -119,5 +143,4 @@
 <script src="assets/js/ajax-mail.js"></script>
 <script src="assets/js/active.js"></script>
 </body>
-
 </html>
