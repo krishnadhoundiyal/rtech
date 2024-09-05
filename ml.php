@@ -189,7 +189,12 @@ include('temp/header.php');
               <div class="card-body">
                 <h5 class="card-title">Natural Language Processing (NLP) solutions
                 </h5>
-                <p class="card-text">Enhance risk assessment and claims processing with advanced NLP technologies.</p>
+                <p class="card-text">Enhance risk assessment and claims processing with advanced NLP technologies.
+                <span class="whitespace">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+</span>
+                </p>
                 <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
@@ -216,7 +221,12 @@ include('temp/header.php');
               <div class="card-body">
                 <h5 class="card-title">Machine Learning Consulting
                 </h5>
-                <p class="card-text">Leverage expert guidance to implement ML strategies for improved risk and claims management.</p>
+                <p class="card-text">Leverage expert guidance to implement ML strategies for improved risk and claims management.
+                <span class="whitespace">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+</span>
+                </p>
                 <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
@@ -231,7 +241,12 @@ include('temp/header.php');
               <div class="card-body">
                 <h5 class="card-title">RPA or Robotic Process Automation solutions
                 </h5>
-                <p class="card-text">Automate routine tasks and boost efficiency with tailored RPA solutions.</p>
+                <p class="card-text">Automate routine tasks and boost efficiency with tailored RPA solutions.
+                <span class="whitespace">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+</span>
+                </p>
                 <a href="contact.php" class="btn btn-primary btn-sm mt-3">Consult Now <i class="fas fa-arrow-right"></i></a>
               </div>
             </div>

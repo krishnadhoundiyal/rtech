@@ -392,10 +392,10 @@ $(document).ready(function(){
         </div>
     </div>
 </section>
-<section class="features-wrapper features-2 section-padding">
-<h2 class="mb-4 text-muted" style="text-align:center">Our Solutions</h2>
+<section class="features-wrapper features-2">
+<h2 class="text-muted" style="text-align:center">Our Solutions</h2>
 
-    <div class="container">
+    <div class="container" style="padding-top:2px">
         <div class="row align-items-center">
             <div class="col-12">
                 <div class="row mtm-30">
@@ -470,9 +470,9 @@ $(document).ready(function(){
     </svg>
 </section>
 
-<section class="features-wrapper features-2 section-padding">
-<h2 class="mb-4 text-muted" style="text-align:center">Who we serve</h2>
-    <div class="container">
+<section class="features-wrapper features-2">
+<h2 class="text-muted" style="text-align:center">Who we serve</h2>
+    <div class="container" style="padding-top:2px">
         <div class="row align-items-center">
             <div class="col-12">
                 <div class="row mtm-30">
