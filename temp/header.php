@@ -75,6 +75,13 @@
             padding: 12px 15px; /* Reduce padding */
         }
     }
+        /* Reduce font size for smaller devices */
+        @media (max-width: 500px) {
+        .mobile-nav ul li a {
+            font-size: 14px; /* Smaller font size for smaller devices */
+            padding: 12px 15px; /* Reduce padding */
+        }
+    }
 
     /* Style for the dropdown icon */
     .mobile-nav ul li a i {
@@ -254,12 +261,12 @@
                                         <li><a href="ai.php">AI Solutions</a></li>
                                         <li><a href="gen-ai.php">Gen AI Solutions</a></li>
                                         <li><a href="ml.php">ML Solutions</a></li>
-                                        <li><a href="index-4.html">Cloud Based Solutions</a></li>
-                                        <li><a href="index-5.html">DevOps Solutions</a></li>
-                                        <li><a href="index-6.html">MLOps Solutions</a></li>
-                                        <li><a href="index-6.html">QA Automation Solutions</a></li>
-                                        <li><a href="index-6.html">Big Data Solutions</a></li>
-                                        <li><a href="index-6.html">Web Application development solutions</a></li>
+                                        <li><a href="ml.php">Cloud Based Solutions</a></li>
+                                        <li><a href="gen-ai.php">DevOps Solutions</a></li>
+                                        <li><a href="ml.php">MLOps Solutions</a></li>
+                                        <li><a href="ai.php">QA Automation Solutions</a></li>
+                                        <li><a href="ml.php">Big Data Solutions</a></li>
+                                        <li><a href="gen-ai.php">Web Application development solutions</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="about.php">Who we serve<i class="fas fa-angle-down"></i></a>
@@ -267,8 +274,8 @@
                                         <li><a href="ai.php">TPAs/JPAs</a></li>
                                         <li><a href="gen-ai.php">Insurers</a></li>
                                         <li><a href="ml.php">Self Insured</a></li>
-                                        <li><a href="index-4.html">Risk Pools</a></li>
-                                        <li><a href="index-5.html">Software Providers in Risk & Clain Landscapes</a></li>
+                                        <li><a href="ai.php">Risk Pools</a></li>
+                                        <li><a href="ai.php">Software Providers in Risk & Clain Landscapes</a></li>
                                         
                                     </ul>
                                 <!-- <li><a href="services.php">Services <i class="fas fa-angle-down"></i></a>
@@ -282,18 +289,18 @@
                                         <li> <a href="data-management.php">Data Management Services</a></li>
                                     </ul>
                             </li> -->
-                            <li><a href="services.php">Resources <i class="fas fa-angle-down"></i></a>
+                            <li><a href="about.php">Resources <i class="fas fa-angle-down"></i></a>
                                 <ul class="sub-menu">
                                         <li><a href="ai.php">Client Success Stories</a></li>
                                         <li><a href="index.php">About</a></li>
                                        
                                     </ul>
                             </li>
-                            <li><a href="services.php">Business Resources <i class="fas fa-angle-down"></i></a>
+                            <li><a href="about.php">Business Resources <i class="fas fa-angle-down"></i></a>
                                 <ul class="sub-menu">
                                         <li><a href="ai.php">6 ways gen AI can improve risk and claim landscapes</a></li>
-                                        <li><a href="ai.php">What is ai quotient? For P&C Insurers</a></li>
-                                        <li><a href="ai.php">AI Insurance, will it take your job</a></li>
+                                        <li><a href="ml.php">What is ai quotient? For P&C Insurers</a></li>
+                                        <li><a href="gen-ai.php">AI Insurance, will it take your job</a></li>
                                        
                                     </ul>
                             </li>
@@ -324,33 +331,33 @@
                     <li>
                         <a href="services.php">Services <i class="fas fa-angle-down"></i></a>
                         <ul class="sub-menu">
-                            <li><a href="ai.php">AI Solutions</a></li>
-                            <li><a href="gen-ai.php">Gen AI Solutions</a></li>
-                            <li><a href="ml.php">ML Solutions</a></li>
-                            <li><a href="index-4.html">Cloud Based Solutions</a></li>
-                            <li><a href="index-5.html">DevOps Solutions</a></li>
-                            <li><a href="index-6.html">MLOps Solutions</a></li>
-                            <li><a href="index-6.html">QA Automation Solutions</a></li>
-                            <li><a href="index-6.html">Big Data Solutions</a></li>
-                            <li><a href="index-6.html">Web Application Development Solutions</a></li>
-                        </ul>
+                        <li><a href="ai.php">AI Solutions</a></li>
+                                        <li><a href="gen-ai.php">Gen AI Solutions</a></li>
+                                        <li><a href="ml.php">ML Solutions</a></li>
+                                        <li><a href="ml.php">Cloud Based Solutions</a></li>
+                                        <li><a href="gen-ai.php">DevOps Solutions</a></li>
+                                        <li><a href="ml.php">MLOps Solutions</a></li>
+                                        <li><a href="ai.php">QA Automation Solutions</a></li>
+                                        <li><a href="ml.php">Big Data Solutions</a></li>
+                                        <li><a href="gen-ai.php">Web Application development solutions</a></li>
+                                    </ul>
                     </li>
 
                     <!-- Who We Serve Dropdown -->
                     <li>
                         <a href="about.php">Who we serve <i class="fas fa-angle-down"></i></a>
                         <ul class="sub-menu">
-                            <li><a href="ai.php">TPAs/JPAs</a></li>
-                            <li><a href="gen-ai.php">Insurers</a></li>
-                            <li><a href="ml.php">Self Insured</a></li>
-                            <li><a href="index-4.html">Risk Pools</a></li>
-                            <li><a href="index-5.html">Software Providers in Risk & Claim Landscapes</a></li>
-                        </ul>
+                        <li><a href="ai.php">TPAs/JPAs</a></li>
+                                        <li><a href="gen-ai.php">Insurers</a></li>
+                                        <li><a href="ml.php">Self Insured</a></li>
+                                        <li><a href="ai.php">Risk Pools</a></li>
+                                        <li><a href="ai.php">Software Providers in Risk & Clain Landscapes</a></li>
+                                        </ul>
                     </li>
 
                     <!-- Resources Dropdown -->
                     <li>
-                        <a href="services.php">Resources <i class="fas fa-angle-down"></i></a>
+                        <a href="about.php">Resources <i class="fas fa-angle-down"></i></a>
                         <ul class="sub-menu">
                             <li><a href="ai.php">Client Success Stories</a></li>
                             <li><a href="index.php">About</a></li>
@@ -359,7 +366,7 @@
 
                     <!-- Business Resources Dropdown -->
                     <li>
-                        <a href="services.php">Business Resources <i class="fas fa-angle-down"></i></a>
+                        <a href="about.php">Business Resources <i class="fas fa-angle-down"></i></a>
                         <ul class="sub-menu">
                             <li><a href="ai.php">6 ways Gen AI can improve risk and claim landscapes</a></li>
                             <li><a href="ai.php">What is AI quotient? For P&C Insurers</a></li>

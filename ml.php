@@ -271,22 +271,146 @@ include('temp/header.php');
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+    // Form functionality
+    // Enable download button only if all fields are filled
+    $('#downloadForm input').on('input', function() {
+        if ($('#email').val() && $('#name').val() && $('#phone').val()) {
+            $('#downloadBtn').prop('disabled', false);
+        } else {
+            $('#downloadBtn').prop('disabled', false);
+        }
+    });
 
-    <section class="cta-banner">
-        <div class="container-fluid bg-cover section-bg" style="background-image: url('assets/img/cta_bg1.png')">
-            <div class="cta-content">
-                <div class="row align-items-center">
-                    <div class="col-xl-7 text-white col-12 text-center text-xl-left">
-                        <h1>Ready To Get Free Consulations For <br> Any Kind Of It Solutions ? </h1>
-                    </div>
-                    <div class="col-xl-5 col-12 text-center text-xl-right">
-                        <a href="contact.php" class="theme-btn mt-4 mt-xl-0">Get a quote <i class="fas fa-arrow-right"></i></a>
-                        <a href="software-service-details.php" class="ml-sm-3 mt-4 mt-xl-0 theme-btn minimal-btn">read more <i class="fas fa-arrow-right"></i></a>
-                    </div>
+    // Handle the download button click
+    $('#downloadBtn').click(function() {
+        if (!$(this).prop('disabled')) {
+            window.location.href = 'assets/pdf/dummy-pdf_2.pdf'; // Replace with your actual PDF path
+        }
+    });
+});
+    </script>
+
+<section class="cta-banner">
+    <div class="container-fluid bg-cover section-bg" style="background-image: url('assets/img/cta_bg1.png')">
+        <div class="cta-content">
+            <div class="row align-items-center">
+                <div class="col-xl-7 text-white col-12 text-center text-xl-left">
+                    <h2>
+                    Read how RiskInsurTech led the Gen AI assessment and adaption at
+                    a prominent software provider in the risk and claims landscape industry!
+
+
+                    </h2>
+                </div>
+                <div class="col-xl-5 col-12 text-center text-xl-right">
+                    <a href="contact.php" class="theme-btn mt-4 mt-xl-0">Get a quote <i class="fas fa-arrow-right"></i></a>
+                    <!-- Button to trigger modal -->
+                    <button type="button" class="ml-sm-3 mt-4 mt-xl-0 theme-btn minimal-btn" data-toggle="modal" data-target="#formModal">Read more <i class="fas fa-arrow-right"></i></button>
                 </div>
             </div>
         </div>
-    </section> 
+    </div>
+</section>
+
+<!-- Modal -->
+ <!-- Modal Structure -->
+ <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-custom" role="document">
+        <div class="modal-content gradient-background">
+            <div class="modal-header">
+                <h5 class="modal-title" id="formModalLabel">Fill Out the Form to Download</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="downloadForm">
+                    <div class="form-group">
+                        <input type="email" class="form-control input-soft" id="email" placeholder="Email address *" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control input-soft" id="name" placeholder="Full Name *" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control input-soft" id="phone" placeholder="Phone Number *" required>
+                    </div>
+                    <button type="button" id="downloadBtn" class="btn btn-primary soft-button" disabled>Download PDF</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+
+.gradient-background {
+        background: linear-gradient(to right, #89a7b8, #ffffff); /* Gradient from light pink to white */
+    }
+
+    .input-soft {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 10px;
+        font-size: 15px;
+        background-color: #fff;
+        transition: border-color 0.3s ease;
+    }
+
+    .input-soft:focus {
+        border-color: #007bff; /* Soft blue on focus */
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.2); /* Subtle shadow effect */
+    }
+
+    .soft-button {
+        background-color: #007bff; /* Common primary color */
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+    .soft-button:disabled {
+        background-color: #cccccc; /* Gray for disabled state */
+    }
+
+    .soft-button:hover:not(:disabled) {
+        background-color: #0056b3; /* Slightly darker blue on hover */
+    }
+
+    .modal-header {
+        border-bottom: 1px solid #ddd; /* Soft border for header */
+    }
+
+    .modal-title {
+        color: #333; /* Neutral color for title */
+    }
+    #formModal {
+        margin-top: 100px; /* Pushes the modal down from the top */
+    }
+
+    @media (max-width: 767.98px) {
+        /* Adjust modal positioning for smaller screens */
+        #formModal {
+            margin-top: 100px; /* Less margin on smaller screens for better responsiveness */
+        }
+    }
+    .highlight {
+        background-color: red; /* Highlight background color */
+        color: red !important;
+}
+.underline {
+    height: 2px;
+    width: 100%;
+    background-color: red;
+    transition: background-color 0.3s ease; /* Smooth transition for color change */
+    margin-top: 5px; /* Space between text and line */
+}
+
+    </style>
 
    <?php
    include('temp/footer.php');

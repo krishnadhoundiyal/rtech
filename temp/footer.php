@@ -27,27 +27,27 @@
               <h4>Services</h4>
             </div>
             <ul style="padding-left:0 !important">
-              <li><a href="cloud-computing.php">Insurance AI solutions
+              <li><a href="ai.php">Insurance AI solutions
               </a></li>
-              <li><a href="security-services.php">Insurance genai-solutions
+              <li><a href="gen-ai.php">Insurance genai-solutions
               </a></li>
-              <li><a href="software-service-details.php">Insurance ML solutions
+              <li><a href="ml.php">Insurance ML solutions
               </a></li>
-              <li><a href="data-management.php">Insurance Cloud integration solutions
+              <li><a href="gen-ai.php">Insurance Cloud integration solutions
               </a></li>
-              <li><a href="data-management.php">Insurance DevOps Solutions
+              <li><a href="ml.php">Insurance DevOps Solutions
 
               </a></li>
-              <li><a href="data-management.php">Insurance MLOps solutions
+              <li><a href="ai.php">Insurance MLOps solutions
 
               </a></li>
-              <li><a href="data-management.php">Insurance QA Automation solutions
+              <li><a href="ml.php">Insurance QA Automation solutions
 
               </a></li>
-              <li><a href="data-management.php">Insurance Big Data Solutions
+              <li><a href="gen-ai.php">Insurance Big Data Solutions
 
               </a></li>
-              <li><a href="data-management.php">Insurance Web application development solutions
+              <li><a href="ai.php">Insurance Web application development solutions
 
               </a></li>
             </ul>
@@ -60,10 +60,10 @@
               <h4>Who we serve</h4>
             </div>
             <ul style="padding-left:0 !important">
-              <li><a href="index.php">TPAs/JPAs</a></li>
-              <li><a href="about.php">Insurers</a></li>
-              <li><a href="services.php">Self Insured</a></li>
-              <li><a href="contact.php">Solftware Provider in Risk and claims landscapes</a></li>
+              <li><a href="ai.php">TPAs/JPAs</a></li>
+              <li><a href="gen-ai.php">Insurers</a></li>
+              <li><a href="ai.php">Self Insured</a></li>
+              <li><a href="ml.php">Solftware Provider in Risk and claims landscapes</a></li>
             </ul>
             <img src="assets/img/Picture1.png" alt="HIPAA vs. GDPR" class="mt-3" style="max-width: 100%;">
           </div>
@@ -76,8 +76,8 @@
               <h4>Resources</h4>
             </div>
             <ul style="padding-left:0 !important">
-              <li><a href="database-management.php">Blogs</a></li>
-              <li><a href="network-service.php">Case Studies</a></li>
+              <li><a href="ml.php">Blogs</a></li>
+              <li><a href="ai.php">Case Studies</a></li>
               <li><a href="index.php">About Us</a></li>
             </ul>
           </div>

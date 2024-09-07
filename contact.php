@@ -92,7 +92,7 @@ Go beyond strategy & consulting
                     
                     <!--<div id="calendar"></div> -->
                     <!-- Calendly embed container -->
-                    <div id="calendly-scheduler" style="width: 100%; height: 1000px;"></div>
+                    <div id="calendly-scheduler" style="width: 100%; height: 900px;"></div>
                 
 
                 </div>
@@ -326,7 +326,7 @@ Go beyond strategy & consulting
 //     calendar.render();
 //   });
 Calendly.initInlineWidget({
-    url: 'https://calendly.com/anirudh-chandnani-riskinsurtech/round1', // Replace with your actual Calendly link
+    url: 'https://calendly.com/anirudh-chandnani-riskinsurtech/free-consultation', // Replace with your actual Calendly link
     parentElement: document.getElementById('calendly-scheduler'), // Attach Calendly to this div
     prefill: {},
     utm: {}

@@ -21,19 +21,19 @@ include('temp/header.php');
                 <div class="row highlight-group">
                     <div class="col-12 col-lg-4">
                         <div class="hero-contents" >
-                            <p>Insurance AI Solutions</p>
+                        <p>Generative AI solutions</p>
                         </div>
                         <div class="underline" data-slide="0"></div>
                     </div>
                     <div class="col-12 col-lg-4">
                         <div class="hero-contents" >
-                            <p>Insurance GenAI Solutions</p>
+                        <p>Artifical Intelligence Solutions</p>
                         </div>
                         <div class="underline" data-slide="1"></div>
                     </div>
                     <div class="col-12 col-lg-4">
                         <div class="hero-contents" >
-                            <p>Insurance ML Solutions</p>
+                        <p>Machine Learning Solutions</p>
                         </div>
                         <div class="underline" data-slide="2"></div>
                     </div>
@@ -57,19 +57,19 @@ include('temp/header.php');
                 <div class="row highlight-group">
                     <div class="col-12 col-lg-4">
                         <div class="hero-contents" >
-                            <p>Insurance AI Solutions</p>
+                        <p>Generative AI solutions</p>
                         </div>
                         <div class="underline" data-slide="0"></div>
                     </div>
                     <div class="col-12 col-lg-4">
                         <div class="hero-contents" >
-                            <p>Insurance GenAI Solutions</p>
+                        <p>Artifical Intelligence Solutions</p>
                         </div>
                         <div class="underline" data-slide="1"></div>
                     </div>
                     <div class="col-12 col-lg-4">
                         <div class="hero-contents">
-                            <p>Insurance ML Solutions</p>
+                        <p>Machine Learning Solutions</p>
                         </div>
                         <div class="underline"  data-slide="2"></div>
                     </div>
@@ -93,19 +93,19 @@ include('temp/header.php');
                 <div class="row highlight-group" >
                     <div class="col-12 col-lg-4">
                         <div class="hero-contents" >
-                            <p>Insurance ML Solutions</p>
+                        <p>Generative AI solutions</p>
                         </div>
                         <div class="underline" data-slide="0"></div>
                     </div>
                     <div class="col-12 col-lg-4">
                         <div class="hero-contents">
-                            <p>Insurance GenAI Solutions</p>
+                        <p>Artifical Intelligence Solutions</p>
                         </div>
                         <div class="underline"  data-slide="1"></div>
                     </div>
                     <div class="col-12 col-lg-4">
                         <div class="hero-contents"  >
-                            <p>Insurance ML Solutions</p>
+                        <p>Machine Learning Solutions</p>
                         </div>
                         <div class="underline" data-slide="2"></div>
                     </div>
@@ -124,14 +124,14 @@ include('temp/header.php');
 <!-- Initialize Owl Carousel -->
 <script>
 $(document).ready(function(){
-    var autoplayTimeout = 3000; // Time between slides in milliseconds
+    var autoplayTimeout = 4000; // Time between slides in milliseconds
     var autoplaySpeed = 1000;   // Speed of the transition in milliseconds
     $(".owl-carousel").owlCarousel({
         loop: true,
         margin: 10,
         nav: false,
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 4000,
         autoplaySpeed: 1000,
         animateOut: 'fadeOut',
         items: 1,
@@ -294,79 +294,11 @@ $(document).ready(function(){
     transition: background-color 0.3s ease; /* Smooth transition for color change */
     margin-top: 5px; /* Space between text and line */
 }
+
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
         .service-details-post-wrapper {
             padding: 20px 10px; /* Smaller padding on mobile */
-        }
-        .col-12 .col-md-6 {
-            margin-bottom:5px !important
-        }
-        .card-title {
-  margin-bottom: 0;
-}
-.mb-2 {
-  margin-bottom: 0 !important;
-}
-.card h5 {
-    font-size: 12px;
-  }
-
-        .card {
-            padding: 2px;
-            max-height: 150px; /* Reduce card height for smaller screens */
-        }
-
-        .card h5 {
-            font-size: 14px; /* Smaller title on mobile */
-        }
-
-        .card p {
-            font-size: 11px; /* Smaller text on mobile */
-        }
-
-        /* Reduce font size for the left column */
-        .col-md-6 p {
-            font-size: 12px;
-        }
-
-        .col-md-6 h1 {
-            font-size: 27px;
-        }
-    }
-
-    @media (max-width: 480px) {
-        .mb-4 {
-            margin-bottom:5px !important
-        }
-        .card {
-            max-height: 120px; /* Reduce card height even more for very small screens */
-        }
-        .card-title {
-  margin-bottom: 0;
-}
-.mb-2 {
-  margin-bottom: 0 !important;
-}
-.fa-2x {
-  font-size: 1em;
-}
-.card h5 {
-    font-size: 12px;
-    line-height: 15px !important
-  }
-        .card h5 {
-            font-size: 12px; /* Smaller title for very small screens */
-        }
-
-        .card p {
-            font-size: 10px; /* Smaller text for very small screens */
-            line-height: 10px !important
-        }
-
-        /* Reduce padding for the overall section on very small screens */
-        .service-details-post-wrapper {
-            padding: 15px 5px;
         }
     }
     </style>
@@ -516,21 +448,21 @@ $(document).ready(function(){
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="icon-box">
-                            <a href="cloud-computing.php">
+                            <a href="ai.php">
                                 <div class="icon">
                                     <i class="flaticon flaticon-stats"></i>
                                 </div>
-                                <h4><a href="cloud-computing.php">Cloud Native Solutions</a></h4>
+                                <h4><a href="ai.php">Cloud Native Solutions</a></h4>
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="icon-box">
-                            <a href="data-management.php">
+                            <a href="gen-ai.php">
                                 <div class="icon">
                                     <i class="flaticon flaticon-stats"></i>
                                 </div>
-                                <h4><a href="data-management.php">Data Management Services</a></h4>
+                                <h4><a href="gen-ai.php">Data Management Services</a></h4>
                             </a>
                         </div>
                     </div>
@@ -1086,8 +1018,9 @@ $(document).ready(function(){
             <div class="row align-items-center">
                 <div class="col-xl-7 text-white col-12 text-center text-xl-left">
                     <h2>
-                    Read how insurtech led the Gen AI adaption at Klear.ai.
-                    a prominent software provider in the risk and claims landscape industry
+                    Read how RiskInsurTech led the Gen AI assessment and adaption at
+                    a prominent software provider in the risk and claims landscape industry!
+
 
                     </h2>
                 </div>

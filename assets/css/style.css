@@ -3053,6 +3053,19 @@ header.header-2 .main-header-wraper {
     font-size: 8px !important;
     width: 100% !important;        /* Full width for very small devices */
   }
+  .header-logo .logo img {
+    width:140px !important;
+  }
+}
+@media (max-width: 768px) {
+  header.header-2 .main-header-wraper .theme-btn {
+    padding: 12px 6px !important;
+    font-size: 8px !important;
+    width: 100% !important;        /* Full width for very small devices */
+  }
+  .header-logo .logo img {
+    width:140px !important;
+  }
 }
 header.header-3 .top-header {
   background-color: #e6f0fb;
@@ -7826,7 +7839,7 @@ header.header-5 .main-header-wraper .header-search.show .search-box .form-group:
   width: 24px;
   height: 24px;
   left: 6%;
-  bottom: 60px;
+  bottom: 10px;
   content: "";
   z-index: -1;
 }
