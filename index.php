@@ -294,6 +294,81 @@ $(document).ready(function(){
     transition: background-color 0.3s ease; /* Smooth transition for color change */
     margin-top: 5px; /* Space between text and line */
 }
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+        .service-details-post-wrapper {
+            padding: 20px 10px; /* Smaller padding on mobile */
+        }
+        .col-12 .col-md-6 {
+            margin-bottom:5px !important
+        }
+        .card-title {
+  margin-bottom: 0;
+}
+.mb-2 {
+  margin-bottom: 0 !important;
+}
+.card h5 {
+    font-size: 12px;
+  }
+
+        .card {
+            padding: 2px;
+            max-height: 150px; /* Reduce card height for smaller screens */
+        }
+
+        .card h5 {
+            font-size: 14px; /* Smaller title on mobile */
+        }
+
+        .card p {
+            font-size: 11px; /* Smaller text on mobile */
+        }
+
+        /* Reduce font size for the left column */
+        .col-md-6 p {
+            font-size: 12px;
+        }
+
+        .col-md-6 h1 {
+            font-size: 27px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .mb-4 {
+            margin-bottom:5px !important
+        }
+        .card {
+            max-height: 120px; /* Reduce card height even more for very small screens */
+        }
+        .card-title {
+  margin-bottom: 0;
+}
+.mb-2 {
+  margin-bottom: 0 !important;
+}
+.fa-2x {
+  font-size: 1em;
+}
+.card h5 {
+    font-size: 12px;
+    line-height: 15px !important
+  }
+        .card h5 {
+            font-size: 12px; /* Smaller title for very small screens */
+        }
+
+        .card p {
+            font-size: 10px; /* Smaller text for very small screens */
+            line-height: 10px !important
+        }
+
+        /* Reduce padding for the overall section on very small screens */
+        .service-details-post-wrapper {
+            padding: 15px 5px;
+        }
+    }
     </style>
 <section class="service-details-post-wrapper section-padding">
 <div class="container">

@@ -30,6 +30,101 @@
     <link rel="stylesheet" href="assets/css/style.css">
     
 </head>
+<style>
+    /* Style for the mobile navigation menu */
+    .mobile-nav {
+        background-color: black; /* Set the background to black */
+        color: white;            /* Set text color to white */
+    }
+
+    .mobile-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Style each menu item */
+    .mobile-nav ul li {
+        border-bottom: 1px solid white; /* Add white bottom border to each menu item */
+    }
+
+    /* Style for links in the mobile menu */
+    .mobile-nav ul li a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 15px 20px;
+        font-size: 16px; /* Default font size */
+        background: none; /* Ensure no background color change */
+    }
+    /* Remove background or color change when the li or a is active/selected */
+    .mobile-nav ul li.active,
+    .mobile-nav ul li.active a,
+    .mobile-nav ul li a.active,
+    .mobile-nav ul li a:active,
+    .mobile-nav ul li a:focus,
+    .mobile-nav ul li a:hover {
+        background-color: transparent !important; /* Ensure no background color on active */
+        color: white; /* Keep the text white */
+    }
+
+    /* Reduce font size for smaller devices */
+    @media (max-width: 768px) {
+        .mobile-nav ul li a {
+            font-size: 14px; /* Smaller font size for smaller devices */
+            padding: 12px 15px; /* Reduce padding */
+        }
+    }
+
+    /* Style for the dropdown icon */
+    .mobile-nav ul li a i {
+        float: right;
+    }
+
+    /* Close button styling */
+    .close-nav {
+        font-size: 18px;
+        color: white;
+        background: none;
+        border: none;
+        padding: 10px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    /* Action bar styling */
+    .action-bar {
+        margin-top: 20px;
+        padding: 15px;
+    }
+
+    .action-bar a {
+        color: white;
+        display: block;
+        padding: 10px 0;
+        text-decoration: none;
+    }
+
+    /* Overlay when menu is open */
+    .overlay {
+        background: rgba(0, 0, 0, 0.7);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        display: none; /* Hide until the menu is active */
+    }
+
+    /* Show the overlay when menu is open */
+    .mobile-nav-wrap.active ~ .overlay {
+        display: block;
+    }
+
+
+    </style>
 
 <body class="body-wrapper">    
     
@@ -213,53 +308,79 @@
                             <a href="contact.php" class="theme-btn">Schedule a Free Call</a>
                         </div>
                         <div class="mobile-nav-bar d-block ml-3 ml-sm-5 d-xl-none">
-                            <div class="mobile-nav-wrap">                    
-                                <div id="hamburger">
-                                    <i class="fal fa-bars"></i>
-                                </div>
-                                <!-- mobile menu - responsive menu  -->
-                                <div class="mobile-nav">
-                                    <button type="button" class="close-nav">
-                                        <i class="fal fa-times-circle"></i>
-                                    </button>
-                                    <nav class="sidebar-nav">
-                                        <ul class="metismenu" id="mobile-menu">
-                                            <li><a  href="index.php">Homes</a>
-                                                <!-- <ul class="sub-menu">
-                                                    <li><a href="index.html">Homepage 1</a></li>
-                                                    <li><a href="index-2.html">Homepage 2</a></li>
-                                                    <li><a href="index-3.html">Homepage 3</a></li>
-                                                    <li><a href="index-4.html">homepage 4</a></li>
-                                                    <li><a href="index-5.html">homepage 5</a></li>
-                                                    <li><a href="index-6.html">Homepage 6</a></li>
-                                                </ul> -->
-                                            </li>
-                                            <li><a href="about.php">about</a></li>
-                                            <li><a href="services.php">services</a></li>
-                                            <!-- <li>
-                                                <a class="has-arrow" href="#">Pages</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="faq.html">faq</a></li>
-                                                    <li><a href="services-details.html">services details</a></li>
-                                                    <li><a href="team.html">Team</a></li>
-                                                    <li><a href="cases-grid.html">Case Grid</a></li>
-                                                    <li><a href="case-2.html">Case Grid 2</a></li>
-                                                </ul>
-                                            </li> -->
-                                            <!-- <li><a href="news.html">News</a></li> -->
-                                            <li><a href="contact.php">Contact</a></li>
-                                        </ul>
-                                    </nav>
-        
-                                    <div class="action-bar">
-                                        <a href="mailto:info@riskinsurtech.com"><i class="fal fa-envelope-open-text"></i>info@riskinsurtech.com</a>
-                                        <a href="tel:123-456-7890"><i class="fal fa-phone"></i> +1 562-469-9335</a>
-                                        <a href="contact.php" class="d-btn theme-btn black">Consultancy</a>
-                                    </div>
-                                </div>                            
-                            </div>
-                            <div class="overlay"></div>
-                        </div>
+    <div class="mobile-nav-wrap">
+        <div id="hamburger">
+            <i class="fal fa-bars"></i>
+        </div>
+        <!-- mobile menu - responsive menu  -->
+        <div class="mobile-nav">
+            <button type="button" class="close-nav">
+                <i class="fal fa-times-circle"></i>
+            </button>
+            <nav class="sidebar-nav">
+                <ul class="metismenu" id="mobile-menu">
+
+                    <!-- Services Dropdown -->
+                    <li>
+                        <a href="services.php">Services <i class="fas fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="ai.php">AI Solutions</a></li>
+                            <li><a href="gen-ai.php">Gen AI Solutions</a></li>
+                            <li><a href="ml.php">ML Solutions</a></li>
+                            <li><a href="index-4.html">Cloud Based Solutions</a></li>
+                            <li><a href="index-5.html">DevOps Solutions</a></li>
+                            <li><a href="index-6.html">MLOps Solutions</a></li>
+                            <li><a href="index-6.html">QA Automation Solutions</a></li>
+                            <li><a href="index-6.html">Big Data Solutions</a></li>
+                            <li><a href="index-6.html">Web Application Development Solutions</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Who We Serve Dropdown -->
+                    <li>
+                        <a href="about.php">Who we serve <i class="fas fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="ai.php">TPAs/JPAs</a></li>
+                            <li><a href="gen-ai.php">Insurers</a></li>
+                            <li><a href="ml.php">Self Insured</a></li>
+                            <li><a href="index-4.html">Risk Pools</a></li>
+                            <li><a href="index-5.html">Software Providers in Risk & Claim Landscapes</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Resources Dropdown -->
+                    <li>
+                        <a href="services.php">Resources <i class="fas fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="ai.php">Client Success Stories</a></li>
+                            <li><a href="index.php">About</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Business Resources Dropdown -->
+                    <li>
+                        <a href="services.php">Business Resources <i class="fas fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="ai.php">6 ways Gen AI can improve risk and claim landscapes</a></li>
+                            <li><a href="ai.php">What is AI quotient? For P&C Insurers</a></li>
+                            <li><a href="ai.php">AI Insurance, will it take your job</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <!-- Action Bar with Contact Info -->
+            <div class="action-bar">
+                <a href="mailto:info@riskinsurtech.com"><i class="fal fa-envelope-open-text"></i> info@riskinsurtech.com</a>
+                <a href="tel:123-456-7890"><i class="fal fa-phone"></i> +1 562-469-9335</a>
+                <a href="contact.php" class="d-btn theme-btn black">Consultancy</a>
+            </div>
+        </div>
+    </div>
+    <div class="overlay"></div>
+</div>
+
                     </div>
                 </div>
             </div>
